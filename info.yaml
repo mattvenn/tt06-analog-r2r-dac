@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "Analog 4bit R2R DAC"      # Project title
+  author:       "Matt Venn"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "A simple 4 bit DAC"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,7 +11,7 @@ project:
   tiles: "1x2"          # Valid values: 1x1 (digital only), 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_mattvenn_r2r_dac"
   
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -20,10 +20,10 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: "bit 0"
+  ui[1]: "bit 1"
+  ui[2]: "bit 2"
+  ui[3]: "bit 3"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
@@ -50,8 +50,7 @@ pinout:
   uio[7]: ""
 
   # Analog pins - you can add more if you use them, up to 8
-  ua[0]: ""
-  ua[1]: ""
+  ua[0]: "DAC output"
 
 # Do not change!
 yaml_version: 6

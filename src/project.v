@@ -2,7 +2,7 @@
 
 // just a stub to keep the Tiny Tapeout tools happy
 
-module tt_um_example (
+module tt_um_mattvenn_r2r_dac (
     input  wire       VGND,
     input  wire       VPWR,
     input  wire [7:0] ui_in,
