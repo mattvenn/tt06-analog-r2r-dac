@@ -5,7 +5,7 @@ def read tt_block_1x2_pg_ana.def
 cellname rename tt_um_template tt_um_mattvenn_r2r_dac
 
 # VPWR
-box 100 0 250 22576
+box 100 500 250 22076
 paint met4
 label VPWR FreeSans met4
 port VPWR make n
@@ -14,7 +14,7 @@ port VPWR class bidirectional
 port conn n s e w
 
 # VGND
-box 4900 0 5050 22576
+box 4900 500 5050 22076
 paint met4
 label VGND FreeSans met4
 port VGND make n
@@ -23,5 +23,5 @@ port VGND class bidirectional
 port conn n s e w
 
 # Export
-gds write ../gds/tt_um_mattvenn_r2r_dac.gds
-lef write ../lef/tt_um_mattvenn_r2r_dac.lef -pinonly
+#gds write ../gds/tt_um_mattvenn_r2r_dac.gds
+#lef write ../lef/tt_um_mattvenn_r2r_dac.lef -pinonly
