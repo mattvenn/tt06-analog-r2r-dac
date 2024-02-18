@@ -1,14 +1,14 @@
 ** sch_path: /home/matt/work/asic-workshop/shuttle-2404/tt06-analog-r2r-dac/xschem/testbench.sch
 **.subckt testbench
 x1 b0 b1 b2 b3 out r2r
-V1 b3 GND 3
-V2 b2 GND 3
-V3 b1 GND 3
-V4 b0 GND pulse(0 3 1u 10p 10p 1u 2u)
+V1 b3 GND pulse(0 1.8 0 0 0 8u 16u)
+V2 b2 GND pulse(0 1.8 0 0 0 4u 8u)
+V3 b1 GND pulse(0 1.8 0 0 0 2u 4u)
+V4 b0 GND pulse(0 1.8 0 0 0 1u 2u)
 **** begin user architecture code
 
 
-.tran 10n 20u uic
+.tran 1n 20u uic
 .save all
 
 
@@ -18,7 +18,7 @@ V4 b0 GND pulse(0 3 1u 10p 10p 1u 2u)
 * expanding   symbol:  r2r.sym # of pins=5
 ** sym_path: /home/matt/work/asic-workshop/shuttle-2404/tt06-analog-r2r-dac/xschem/r2r.sym
 ** sch_path: /home/matt/work/asic-workshop/shuttle-2404/tt06-analog-r2r-dac/xschem/r2r.sch
-.subckt r2r b1 b0 b2 b3 out
+.subckt r2r b0 b1 b2 b3 out
 *.ipin b1
 *.opin out
 *.ipin b0
