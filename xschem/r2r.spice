@@ -1,0 +1,18 @@
+** sch_path: /home/matt/work/asic-workshop/shuttle-2404/tt06-analog-r2r-dac/xschem/r2r.sch
+**.subckt r2r b1 out b0 b2 b3
+*.ipin b1
+*.opin out
+*.ipin b0
+*.ipin b2
+*.ipin b3
+R1 b0 net1 1k m=1
+R2 b1 net2 1k m=1
+R3 b2 net3 1k m=1
+R4 net1 GND 1k m=1
+R5 b3 out 1k m=1
+R6 net2 net1 500 m=1
+R7 net3 net2 500 m=1
+R8 out net3 500 m=1
+**.ends
+.GLOBAL GND
+.end
