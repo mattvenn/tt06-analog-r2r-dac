@@ -3,8 +3,8 @@
 set ::env(PL_TARGET_DENSITY) 0.6
 
 # CLOCK_PERIOD - Increase this in case you are getting setup time violations.
-# The value is in nanoseconds, so 20ns == 50MHz.
-set ::env(CLOCK_PERIOD) "20"
+# The value is in nanoseconds, so 10ns == 100MHz.
+set ::env(CLOCK_PERIOD) "10"
 
 # Hold slack margin - Increase them in case you are getting hold violations.
 set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.1
@@ -20,6 +20,9 @@ set ::env(LINTER_INCLUDE_PDK_MODELS) 1
 set script_dir [file dirname [file normalize [info script]]]
 set ::env(DESIGN_NAME) r2r_dac_control
 set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/src/*v"
+
+set ::env(FP_PIN_ORDER_CFG) "$::env(DESIGN_DIR)/pin_order.cfg"
+
 
 # Save some time
 set ::env(RUN_KLAYOUT_XOR) 0
@@ -39,7 +42,7 @@ set ::env(RIGHT_MARGIN_MULT) 6
 
 # Absolute die size
 set ::env(FP_SIZING) absolute
-set ::env(DIE_AREA) "0 0 60 60"
+set ::env(DIE_AREA) "0 0 80 80"
 
 set ::env(PL_BASIC_PLACEMENT) {0}
 set ::env(GRT_ALLOW_CONGESTION) "1"
