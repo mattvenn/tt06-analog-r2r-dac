@@ -1,20 +1,24 @@
 `default_nettype none
 module r2r_dac_control (
-    input wire clk,
+    input wire clk,                 // expect a 10M clock
     input wire n_rst,
-/*    input wire external_enable,
-    input wire [3:0] external_control,
-    input wire [7:0] divider,
-    input wire set_divider,
-    */
-    output wire [3:0] drive_bit,
-//    output wire [7:0] counter
+    input wire ext_data,            // if this is high, then DAC data comes from ui_in[7:0]
+    input wire [7:0] data,          // connect to ui_in[7:0]
+    input wire load_divider,        // load value set on data to the clock divider
+    output reg [7:0] r2r_out        // 8 bit out to the R2R DAC
     );
 
     reg rst;
-    reg [3:0] counter;
-    assign drive_bit = counter;
+    reg [7:0] divider;
+    reg [15:0] counter;
 
+    initial begin
+        $dumpfile ("r2r_dac_control.vcd");
+        $dumpvars (0, r2r_dac_control);
+        #1;
+    end
+
+    // reset handling
     always @(posedge clk or posedge n_rst) begin
         if(n_rst)
             rst <= 1'b0;
@@ -22,11 +26,28 @@ module r2r_dac_control (
             rst <= 1'b1;
     end
 
+    // load divider
     always @(posedge clk) begin
         if(rst)
+            divider <= 0;
+        if(load_divider)
+            divider <= data;
+    end
+
+    // counter and r2r output
+    always @(posedge clk) begin
+        if(rst) begin
             counter <= 0;
-        else
-            counter <= counter + 1;
+            r2r_out <= 0;
+        end else if(ext_data)
+            r2r_out <= data;
+        else begin
+            if(counter >= (divider << 8)) begin
+                counter <= 0;
+                r2r_out <= r2r_out + 1;
+            end else 
+                counter <= counter + 1;
+        end
     end
 
 endmodule
