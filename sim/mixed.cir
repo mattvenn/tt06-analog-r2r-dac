@@ -4,7 +4,7 @@ Simulation of an R2R DAC with Verilator and d_cosim
 
 * The digital portion of the circuit is specified in compiled Verilog.
 * list the inputs and outputs
-adut [ clk n_rst ] [b3 b2 b1 b0] null dut
+adut [ clk n_rst ext_data d7 d6 d5 d4 d3 d2 d1 d0 load_divider ] [b7 b6 b5 b4 b3 b2 b1 b0] null dut
 .model dut d_cosim simulation="./r2r_dac_control.so"
 
 * connect the driver to the R2R dac
@@ -12,7 +12,7 @@ adut [ clk n_rst ] [b3 b2 b1 b0] null dut
 
 .include "../xschem/r2r.spice" 
 
-xr2r b1 out b0 b2 b3 r2r
+xr2r b1 b0 b2 b3 b5 out b4 b6 b7 r2r
 
 **** End of the ADC and its subcircuits.  Begin test circuit ****
 
@@ -29,7 +29,7 @@ aclock 0 clk clock
 Vreset n_rst 0 PULSE 3 0 1n 20p 20p 1u 500u
 
 .control
-tran 100n 100u
+tran 100n 400u
 plot out
 .endc
 .end

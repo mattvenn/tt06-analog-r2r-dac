@@ -15,7 +15,6 @@ module r2r_dac_control (
     initial begin
         $dumpfile ("r2r_dac_control.vcd");
         $dumpvars (0, r2r_dac_control);
-        #1;
     end
 
     // reset handling
@@ -42,7 +41,9 @@ module r2r_dac_control (
         end else if(ext_data)
             r2r_out <= data;
         else begin
+        /* verilator lint_off WIDTHEXPAND */
             if(counter >= (divider << 8)) begin
+        /* lint_on */
                 counter <= 0;
                 r2r_out <= r2r_out + 1;
             end else 
