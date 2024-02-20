@@ -47,8 +47,10 @@ C {devices/lab_pin.sym} -130 -60 0 0 {name=p2 sig_type=std_logic lab=b1}
 C {devices/lab_pin.sym} -130 -40 0 0 {name=p3 sig_type=std_logic lab=b2}
 C {devices/lab_pin.sym} -130 -20 0 0 {name=p4 sig_type=std_logic lab=b3}
 C {devices/lab_pin.sym} 200 -80 2 0 {name=p5 sig_type=std_logic lab=out}
-C {devices/code.sym} 300 -20 0 0 {name=s1 only_toplevel=false value="
-.lib /home/matt/work/asic-workshop/shuttle-2404/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+C {devices/code.sym} 300 -20 0 0 {name=s1 only_toplevel=false 
+format="tcleval( @value )"
+value="
+.lib $::SKYWATER_MODELS/sky130.lib.spice tt
 .tran 1n 20u uic
 .save all
 "
