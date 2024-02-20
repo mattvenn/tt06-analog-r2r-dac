@@ -1,23 +1,26 @@
 magic
 tech sky130A
-timestamp 1708444847
+magscale 1 2
+timestamp 1708459662
 << xpolycontact >>
-rect -17 50 17 266
-rect -17 -266 17 -50
+rect -35 100 35 532
+rect -35 -532 35 -100
 << ppolyres >>
-rect -17 -50 17 50
+rect -35 -100 35 100
 << viali >>
-rect -9 58 9 257
-rect -9 -257 9 -58
+rect -19 117 19 514
+rect -19 -514 19 -117
 << metal1 >>
-rect -12 257 12 263
-rect -12 58 -9 257
-rect 9 58 12 257
-rect -12 52 12 58
-rect -12 -58 12 -52
-rect -12 -257 -9 -58
-rect 9 -257 12 -58
-rect -12 -263 12 -257
+rect -25 514 25 526
+rect -25 117 -19 514
+rect 19 117 25 514
+rect -25 105 25 117
+rect -25 -117 25 -105
+rect -25 -514 -19 -117
+rect 19 -514 25 -117
+rect -25 -526 25 -514
+<< res0p35 >>
+rect -37 -102 37 102
 << properties >>
 string gencell sky130_fd_pr__res_high_po_0p35
 string library sky130
