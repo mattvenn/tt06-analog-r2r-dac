@@ -38,7 +38,7 @@ lab=b5}
 N 900 40 900 70 {
 lab=b6}
 N 1020 40 1020 70 {
-lab=b3}
+lab=b7}
 N 660 130 690 130 {
 lab=#net5}
 N 750 130 780 130 {
@@ -57,11 +57,6 @@ N 550 130 570 130 {
 lab=#net4}
 N 630 130 660 130 {
 lab=#net5}
-C {devices/res.sym} 170 100 0 0 {name=R1
-value=1k
-footprint=1206
-device=resistor
-m=1}
 C {devices/res.sym} 290 100 0 0 {name=R2
 value=1k
 footprint=1206
@@ -150,3 +145,8 @@ value=500
 footprint=1206
 device=resistor
 m=1}
+C {sky130_fd_pr/res_high_po_0p35.sym} 170 100 0 0 {name=R20
+L=0.35
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
