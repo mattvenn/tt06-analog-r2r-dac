@@ -5,148 +5,162 @@ K {}
 V {}
 S {}
 E {}
-N 170 40 170 70 {
+N 140 40 140 70 {
 lab=b0}
-N 290 40 290 70 {
-lab=b1}
 N 410 40 410 70 {
+lab=b1}
+N 650 40 650 70 {
 lab=b2}
-N 530 40 530 70 {
-lab=b3}
-N 170 130 200 130 {
-lab=#net1}
-N 170 130 170 150 {
-lab=#net1}
-N 260 130 290 130 {
-lab=#net2}
-N 290 130 320 130 {
-lab=#net2}
-N 380 130 410 130 {
-lab=#net3}
-N 410 130 440 130 {
-lab=#net3}
-N 500 130 530 130 {
-lab=#net4}
-N 530 130 550 130 {
-lab=#net4}
-N 170 210 170 220 {
-lab=GND}
-N 660 40 660 70 {
-lab=b4}
-N 780 40 780 70 {
-lab=b5}
 N 900 40 900 70 {
+lab=b3}
+N 1150 40 1150 70 {
+lab=b4}
+N 1390 40 1390 70 {
+lab=b5}
+N 1640 40 1640 70 {
 lab=b6}
-N 1020 40 1020 70 {
+N 1860 40 1860 70 {
 lab=b7}
-N 660 130 690 130 {
-lab=#net5}
-N 750 130 780 130 {
-lab=#net6}
-N 780 130 810 130 {
-lab=#net6}
-N 870 130 900 130 {
-lab=#net7}
-N 900 130 930 130 {
-lab=#net7}
-N 990 130 1020 130 {
-lab=out}
-N 1020 130 1040 130 {
-lab=out}
-N 550 130 570 130 {
+N 140 130 270 130 {
+lab=#net1}
+N 140 130 140 160 {
+lab=#net1}
+N 330 130 410 130 {
+lab=#net2}
+N 410 130 540 130 {
+lab=#net2}
+N 600 130 650 130 {
+lab=#net3}
+N 650 130 790 130 {
+lab=#net3}
+N 850 130 900 130 {
 lab=#net4}
-N 630 130 660 130 {
+N 900 130 1040 130 {
+lab=#net4}
+N 1100 130 1150 130 {
 lab=#net5}
-C {devices/res.sym} 290 100 0 0 {name=R2
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 410 100 0 0 {name=R3
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/ipin.sym} 290 40 1 0 {name=p1 lab=b1}
-C {devices/ipin.sym} 170 40 1 0 {name=p3 lab=b0}
-C {devices/ipin.sym} 410 40 1 0 {name=p4 lab=b2
-}
-C {devices/ipin.sym} 530 40 1 0 {name=p5 lab=b3}
-C {devices/res.sym} 170 180 0 0 {name=R4
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 530 100 0 0 {name=R5
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 230 130 1 0 {name=R6
-value=500
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 350 130 1 0 {name=R7
-value=500
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 470 130 1 0 {name=R8
-value=500
-footprint=1206
-device=resistor
-m=1}
-C {devices/gnd.sym} 170 220 0 0 {name=l1 lab=GND}
-C {devices/res.sym} 660 100 0 0 {name=R9
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 780 100 0 0 {name=R10
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 900 100 0 0 {name=R11
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/ipin.sym} 780 40 1 0 {name=p6 lab=b5}
-C {devices/opin.sym} 1040 130 0 0 {name=p7 lab=out}
-C {devices/ipin.sym} 660 40 1 0 {name=p8 lab=b4
-}
-C {devices/ipin.sym} 900 40 1 0 {name=p9 lab=b6
-}
-C {devices/ipin.sym} 1020 40 1 0 {name=p10 lab=b7}
-C {devices/res.sym} 1020 100 0 0 {name=R12
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 720 130 1 0 {name=R13
-value=500
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 840 130 1 0 {name=R14
-value=500
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 960 130 1 0 {name=R15
-value=500
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 600 130 1 0 {name=R16
-value=500
-footprint=1206
-device=resistor
-m=1}
-C {sky130_fd_pr/res_high_po_0p35.sym} 170 100 0 0 {name=R20
-L=0.35
+N 1150 130 1280 130 {
+lab=#net5}
+N 1340 130 1390 130 {
+lab=#net6}
+N 1390 130 1530 130 {
+lab=#net6}
+N 1590 130 1640 130 {
+lab=#net7}
+N 1640 130 1760 130 {
+lab=#net7}
+N 1820 130 1860 130 {
+lab=out}
+N 1860 130 2000 130 {
+lab=out}
+N 140 220 140 290 {
+lab=GND}
+C {devices/gnd.sym} 140 290 0 0 {name=l1 lab=GND}
+C {sky130_fd_pr/res_high_po_0p35.sym} 140 100 0 0 {name=R1
+L=1
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
+C {sky130_fd_pr/res_high_po_0p35.sym} 410 100 0 0 {name=R2
+L=1
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 390 100 0 0 {name=p11 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 650 100 0 0 {name=R3
+L=1
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 630 100 0 0 {name=p12 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 900 100 0 0 {name=R4
+L=1
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 880 100 0 0 {name=p13 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 1150 100 0 0 {name=R5
+L=1
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 1130 100 0 0 {name=p14 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 1390 100 0 0 {name=R6
+L=1
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 1370 100 0 0 {name=p15 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 1640 100 0 0 {name=R7
+L=1
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 1620 100 0 0 {name=p16 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 1860 100 0 0 {name=R8
+L=1
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 1840 100 0 0 {name=p17 lab=B}
+C {devices/lab_pin.sym} 120 100 0 0 {name=p18 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 300 130 3 0 {name=R9
+L=0.5
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 300 150 3 0 {name=p20 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 570 130 3 0 {name=R10
+L=0.5
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 570 150 3 0 {name=p22 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 820 130 3 0 {name=R11
+L=0.5
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 820 150 3 0 {name=p24 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 1070 130 3 0 {name=R12
+L=0.5
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 1070 150 3 0 {name=p26 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 1310 130 3 0 {name=R13
+L=0.5
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 1310 150 3 0 {name=p28 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 1560 130 3 0 {name=R14
+L=0.5
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 1560 150 3 0 {name=p30 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 1790 130 3 0 {name=R15
+L=0.5
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 1790 150 3 0 {name=p32 lab=B}
+C {sky130_fd_pr/res_high_po_0p35.sym} 140 190 0 0 {name=R16
+L=1
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 120 190 0 0 {name=p34 lab=B}
+C {devices/ipin.sym} 140 40 0 0 {name=p1 lab=b0}
+C {devices/ipin.sym} 410 40 0 0 {name=p2 lab=b1}
+C {devices/ipin.sym} 650 40 0 0 {name=p3 lab=b2}
+C {devices/ipin.sym} 900 40 0 0 {name=p4 lab=b3}
+C {devices/ipin.sym} 1150 40 0 0 {name=p5 lab=b4}
+C {devices/ipin.sym} 1390 40 0 0 {name=p6 lab=b5
+}
+C {devices/ipin.sym} 1640 40 0 0 {name=p7 lab=b6}
+C {devices/ipin.sym} 1860 40 0 0 {name=p8 lab=b7}
+C {devices/opin.sym} 2000 130 0 0 {name=p9 lab=out}
+C {devices/ipin.sym} 390 230 2 0 {name=p10 lab=B}
+C {devices/lab_pin.sym} 390 230 0 0 {name=p19 lab=B}

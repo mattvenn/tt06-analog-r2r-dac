@@ -5,14 +5,6 @@ K {}
 V {}
 S {}
 E {}
-N -130 -40 -100 -40 {
-lab=b2}
-N -130 -20 -100 -20 {
-lab=b3}
-N -130 0 -100 0 {
-lab=#net1}
-N -130 20 -100 20 {
-lab=#net2}
 N -210 140 -210 160 {
 lab=GND}
 N -240 60 -210 60 {
@@ -37,15 +29,21 @@ N -470 220 -440 220 {
 lab=b0}
 N -440 220 -440 240 {
 lab=b0}
-N -130 -80 -100 -80 {
-lab=b0}
-N -130 -60 -100 -60 {
-lab=b1}
-C {r2r.sym} 50 -10 0 0 {name=x1}
-C {devices/lab_pin.sym} -130 -80 0 0 {name=p1 sig_type=std_logic lab=b0}
-C {devices/lab_pin.sym} -130 -60 0 0 {name=p2 sig_type=std_logic lab=b1}
-C {devices/lab_pin.sym} -130 -40 0 0 {name=p3 sig_type=std_logic lab=b2}
-C {devices/lab_pin.sym} -130 -20 0 0 {name=p4 sig_type=std_logic lab=b3}
+N -180 -80 -100 -80 {
+lab=GND}
+N -230 -90 -180 -80 {
+lab=GND}
+N -230 -90 -100 0 {
+lab=GND}
+N -230 -90 -100 20 {
+lab=GND}
+N -230 -90 -100 40 {
+lab=GND}
+C {r2r.sym} 50 0 0 0 {name=x1}
+C {devices/lab_pin.sym} -100 -20 0 0 {name=p1 sig_type=std_logic lab=b0}
+C {devices/lab_pin.sym} -100 -40 0 0 {name=p2 sig_type=std_logic lab=b1}
+C {devices/lab_pin.sym} -100 -60 0 0 {name=p3 sig_type=std_logic lab=b2}
+C {devices/lab_pin.sym} -100 60 0 0 {name=p4 sig_type=std_logic lab=b3}
 C {devices/lab_pin.sym} 200 -80 2 0 {name=p5 sig_type=std_logic lab=out}
 C {devices/code.sym} 300 -20 0 0 {name=s1 only_toplevel=false 
 format="tcleval( @value )"
@@ -68,3 +66,5 @@ C {devices/vsource.sym} -440 270 0 0 {name=V4 value="pulse(0 1.8 0 0 0 1u 2u)" s
 C {devices/gnd.sym} -440 320 0 0 {name=l4 lab=GND}
 C {devices/lab_pin.sym} -470 220 0 0 {name=p9 sig_type=std_logic lab=b0
 }
+C {devices/gnd.sym} -100 80 0 0 {name=l5 lab=GND}
+C {devices/gnd.sym} -230 -90 0 0 {name=l6 lab=GND}

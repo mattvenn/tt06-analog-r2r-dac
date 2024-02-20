@@ -1,0 +1,140 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1708448891
+<< metal1 >>
+rect -4 1234 70 1664
+rect 140 1234 214 1664
+rect 278 1234 352 1664
+rect 0 1232 70 1234
+rect 420 1232 494 1662
+rect 558 1234 632 1664
+rect 698 1234 772 1664
+rect 838 1230 912 1660
+rect 978 1232 1052 1662
+rect -2 520 76 988
+rect 150 610 260 930
+rect 290 610 400 930
+rect 430 610 540 930
+rect 570 610 680 930
+rect 710 610 820 930
+rect 850 610 960 930
+rect 990 892 1100 930
+rect 990 610 1254 892
+rect 230 520 260 610
+rect 370 520 400 610
+rect 510 520 540 610
+rect 650 520 680 610
+rect 790 520 820 610
+rect 930 520 960 610
+rect -2 450 200 520
+rect 230 450 340 520
+rect 370 450 480 520
+rect 510 450 620 520
+rect 650 450 760 520
+rect 790 450 900 520
+rect 930 452 990 520
+rect 1070 502 1254 610
+rect 930 450 1040 452
+rect -2 118 76 450
+rect 230 -110 260 450
+rect 370 -110 400 450
+rect 510 -110 540 450
+rect 650 -110 680 450
+rect 790 -110 820 450
+rect 930 -110 960 450
+rect 1070 -110 1100 502
+rect -110 -530 60 -140
+rect 150 -430 260 -110
+rect 290 -430 400 -110
+rect 430 -430 540 -110
+rect 570 -430 680 -110
+rect 710 -430 820 -110
+rect 850 -430 960 -110
+rect 990 -430 1100 -110
+use sky130_fd_pr__res_high_po_0p35_B8JXJA  sky130_fd_pr__res_high_po_0p35_B8JXJA_0
+timestamp 1708444847
+transform 1 0 1015 0 1 42
+box -35 -482 35 482
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  sky130_fd_pr__res_high_po_0p35_JK9DHS_0
+timestamp 1708444847
+transform 1 0 35 0 1 -8
+box -35 -532 35 532
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR1
+timestamp 1708444847
+transform 1 0 35 0 1 1132
+box -35 -532 35 532
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR2
+timestamp 1708444847
+transform 1 0 175 0 1 1132
+box -35 -532 35 532
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR3
+timestamp 1708444847
+transform 1 0 315 0 1 1132
+box -35 -532 35 532
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR4
+timestamp 1708444847
+transform 1 0 455 0 1 1132
+box -35 -532 35 532
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR5
+timestamp 1708444847
+transform 1 0 595 0 1 1132
+box -35 -532 35 532
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR6
+timestamp 1708444847
+transform 1 0 735 0 1 1132
+box -35 -532 35 532
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR7
+timestamp 1708444847
+transform 1 0 875 0 1 1132
+box -35 -532 35 532
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR8
+timestamp 1708444847
+transform 1 0 1015 0 1 1132
+box -35 -532 35 532
+use sky130_fd_pr__res_high_po_0p35_B8JXJA  XR9
+timestamp 1708444847
+transform 1 0 175 0 1 42
+box -35 -482 35 482
+use sky130_fd_pr__res_high_po_0p35_B8JXJA  XR10
+timestamp 1708444847
+transform 1 0 315 0 1 42
+box -35 -482 35 482
+use sky130_fd_pr__res_high_po_0p35_B8JXJA  XR11
+timestamp 1708444847
+transform 1 0 455 0 1 42
+box -35 -482 35 482
+use sky130_fd_pr__res_high_po_0p35_B8JXJA  XR12
+timestamp 1708444847
+transform 1 0 595 0 1 42
+box -35 -482 35 482
+use sky130_fd_pr__res_high_po_0p35_B8JXJA  XR13
+timestamp 1708444847
+transform 1 0 735 0 1 42
+box -35 -482 35 482
+use sky130_fd_pr__res_high_po_0p35_B8JXJA  XR14
+timestamp 1708444847
+transform 1 0 875 0 1 42
+box -35 -482 35 482
+<< labels >>
+rlabel metal1 1084 502 1254 892 1 out
+port 8 n
+rlabel metal1 -110 -530 60 -140 1 VSS
+port 9 n
+rlabel metal1 -4 1234 70 1664 1 b0
+port 0 n
+rlabel metal1 140 1234 214 1664 1 b1
+port 1 n
+rlabel metal1 278 1234 352 1664 1 b2
+port 2 n
+rlabel metal1 420 1232 494 1662 1 b3
+port 3 n
+rlabel metal1 558 1234 632 1664 1 b4
+port 4 n
+rlabel metal1 698 1234 772 1664 1 b5
+port 5 n
+rlabel metal1 838 1230 912 1660 1 b6
+port 6 n
+rlabel metal1 978 1232 1052 1662 1 b7
+port 7 n
+<< end >>
