@@ -87,7 +87,7 @@ use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR4
 timestamp 1708459662
 transform 1 0 1237 0 1 1132
 box -37 -532 37 532
-use sky130_fd_pr__res_high_po_0p35_4BBNB6  XR5
+use sky130_fd_pr__res_high_po_0p35_JK9DHS  XR5
 timestamp 1708459662
 transform 1 0 1437 0 1 1132
 box -37 -532 37 532
