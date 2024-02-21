@@ -1,7 +1,15 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1708526493
+timestamp 1708537759
+<< psubdiff >>
+rect 884 -2256 908 -1804
+rect 1372 -2256 1396 -1804
+<< psubdiffcont >>
+rect 908 -2256 1372 -1804
+<< locali >>
+rect 892 -2256 908 -1804
+rect 1372 -2256 1388 -1804
 << metal1 >>
 rect 160 3700 360 3900
 rect 480 3700 680 3900
@@ -37,10 +45,12 @@ rect 1810 3516 1988 3576
 rect 1810 3412 1870 3516
 rect 2398 3470 2458 3700
 rect 2000 3410 2458 3470
-rect 1206 1586 1266 1880
 rect 784 802 952 804
-rect 610 344 670 802
+rect 610 490 670 802
 rect 784 600 968 802
+rect 610 430 866 490
+rect 610 344 670 430
+rect 806 -24 866 430
 rect 280 -460 560 -400
 rect 280 -600 562 -460
 rect 500 -2080 562 -600
@@ -135,7 +145,7 @@ box -35 -932 35 932
 << labels >>
 flabel metal1 2300 360 2500 560 0 FreeSans 256 0 0 0 out
 port 8 nsew
-flabel metal1 280 -600 480 -400 0 FreeSans 256 0 0 0 B
+flabel metal1 280 -600 480 -400 0 FreeSans 256 0 0 0 GND
 port 9 nsew
 flabel metal1 160 3700 360 3900 0 FreeSans 256 0 0 0 b0
 port 0 nsew
@@ -153,4 +163,6 @@ flabel metal1 2060 3700 2260 3900 0 FreeSans 256 0 0 0 b6
 port 6 nsew
 flabel metal1 2400 3700 2600 3900 0 FreeSans 256 0 0 0 b7
 port 7 nsew
+rlabel psubdiffcont 908 -2256 1372 -1804 1 VSUBS
+port 10 n
 << end >>
