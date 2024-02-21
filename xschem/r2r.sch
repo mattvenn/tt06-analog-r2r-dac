@@ -57,97 +57,97 @@ N 140 220 140 290 {
 lab=GND}
 C {devices/gnd.sym} 140 290 0 0 {name=l1 lab=GND}
 C {sky130_fd_pr/res_high_po_0p35.sym} 140 100 0 0 {name=R1
-L=1
+L=10
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {sky130_fd_pr/res_high_po_0p35.sym} 410 100 0 0 {name=R2
-L=1
+L=10
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 390 100 0 0 {name=p11 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 650 100 0 0 {name=R3
-L=1
+L=10
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 630 100 0 0 {name=p12 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 900 100 0 0 {name=R4
-L=1
+L=10
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 880 100 0 0 {name=p13 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1150 100 0 0 {name=R5
-L=1
+L=10
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 1130 100 0 0 {name=p14 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1390 100 0 0 {name=R6
-L=1
+L=10
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 1370 100 0 0 {name=p15 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1640 100 0 0 {name=R7
-L=1
+L=10
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 1620 100 0 0 {name=p16 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1860 100 0 0 {name=R8
-L=1
+L=10
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 1840 100 0 0 {name=p17 lab=B}
 C {devices/lab_pin.sym} 120 100 0 0 {name=p18 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 300 130 3 0 {name=R9
-L=0.5
+L=5
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 300 150 3 0 {name=p20 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 570 130 3 0 {name=R10
-L=0.5
+L=5
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 570 150 3 0 {name=p22 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 820 130 3 0 {name=R11
-L=0.5
+L=5
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 820 150 3 0 {name=p24 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1070 130 3 0 {name=R12
-L=0.5
+L=5
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 1070 150 3 0 {name=p26 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1310 130 3 0 {name=R13
-L=0.5
+L=5
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 1310 150 3 0 {name=p28 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1560 130 3 0 {name=R14
-L=0.5
+L=5
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 1560 150 3 0 {name=p30 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1790 130 3 0 {name=R15
-L=0.5
+L=5
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 1790 150 3 0 {name=p32 lab=B}
 C {sky130_fd_pr/res_high_po_0p35.sym} 140 190 0 0 {name=R16
-L=1
+L=10
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
