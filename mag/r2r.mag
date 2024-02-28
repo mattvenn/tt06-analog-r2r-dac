@@ -1,168 +1,143 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1708537759
-<< psubdiff >>
-rect 884 -2256 908 -1804
-rect 1372 -2256 1396 -1804
-<< psubdiffcont >>
-rect 908 -2256 1372 -1804
-<< locali >>
-rect 892 -2256 908 -1804
-rect 1372 -2256 1388 -1804
+timestamp 1709129632
+<< pwell >>
+rect -2480 2660 -1760 2740
 << metal1 >>
-rect 160 3700 360 3900
-rect 480 3700 680 3900
-rect 780 3700 980 3900
-rect 1100 3700 1300 3900
-rect 1420 3700 1620 3900
-rect 1740 3700 1940 3900
-rect 2060 3700 2260 3900
-rect 2400 3822 2600 3900
-rect 2398 3700 2600 3822
-rect 280 3468 340 3700
-rect 600 3588 660 3700
-rect 920 3588 980 3700
-rect 600 3528 860 3588
-rect 920 3528 1060 3588
-rect 280 3408 660 3468
-rect 600 3260 660 3408
-rect 800 3380 860 3528
-rect 1000 3380 1060 3528
-rect 1200 3380 1260 3700
-rect 1466 3612 1526 3700
-rect 1758 3668 1818 3700
-rect 1406 3552 1526 3612
-rect 1664 3608 1818 3668
-rect 2098 3662 2158 3700
-rect 1664 3584 1724 3608
-rect 1406 3404 1466 3552
-rect 1612 3524 1724 3584
-rect 1928 3602 2158 3662
-rect 1928 3576 1988 3602
-rect 1612 3406 1672 3524
-rect 1810 3516 1988 3576
-rect 1810 3412 1870 3516
-rect 2398 3470 2458 3700
-rect 2000 3410 2458 3470
-rect 784 802 952 804
-rect 610 490 670 802
-rect 784 600 968 802
-rect 610 430 866 490
-rect 610 344 670 430
-rect 806 -24 866 430
-rect 280 -460 560 -400
-rect 280 -600 562 -460
-rect 500 -2080 562 -600
-rect 906 -1185 968 600
-rect 1004 260 1074 794
-rect 1208 628 1362 832
-rect 1000 -40 1260 260
-rect 1312 -1173 1362 628
-rect 1404 260 1474 810
-rect 1598 642 1766 846
-rect 1702 636 1764 642
-rect 1400 -40 1660 260
-rect 1710 -1168 1764 636
-rect 1804 260 1874 814
-rect 1988 668 2072 770
-rect 1988 560 2306 668
-rect 1988 462 2500 560
-rect 2002 460 2500 462
-rect 2156 396 2500 460
-rect 1800 -40 2060 260
-rect 806 -1610 1070 -1185
-rect 1219 -1598 1483 -1173
-rect 1603 -1593 1867 -1168
-rect 2166 -1175 2252 396
-rect 2300 360 2500 396
-rect 2000 -1600 2264 -1175
-rect 500 -2500 660 -2080
-use sky130_fd_pr__res_high_po_0p35_4KAW53  sky130_fd_pr__res_high_po_0p35_4KAW53_0
-timestamp 1708526493
-transform 1 0 635 0 1 -1068
-box -35 -1432 35 1432
-use sky130_fd_pr__res_high_po_0p35_WM4CGA  sky130_fd_pr__res_high_po_0p35_WM4CGA_0
-timestamp 1708526493
-transform 1 0 2035 0 1 -668
-box -35 -932 35 932
-use sky130_fd_pr__res_high_po_0p35_4KAW53  XR1
-timestamp 1708526493
-transform 1 0 635 0 1 2032
-box -35 -1432 35 1432
-use sky130_fd_pr__res_high_po_0p35_4KAW53  XR2
-timestamp 1708526493
-transform 1 0 835 0 1 2032
-box -35 -1432 35 1432
-use sky130_fd_pr__res_high_po_0p35_4KAW53  XR3
-timestamp 1708526493
-transform 1 0 1035 0 1 2032
-box -35 -1432 35 1432
-use sky130_fd_pr__res_high_po_0p35_4KAW53  XR4
-timestamp 1708526493
-transform 1 0 1235 0 1 2032
-box -35 -1432 35 1432
-use sky130_fd_pr__res_high_po_0p35_4KAW53  XR5
-timestamp 1708526493
-transform 1 0 1435 0 1 2032
-box -35 -1432 35 1432
-use sky130_fd_pr__res_high_po_0p35_4KAW53  XR6
-timestamp 1708526493
-transform 1 0 1635 0 1 2032
-box -35 -1432 35 1432
-use sky130_fd_pr__res_high_po_0p35_4KAW53  XR7
-timestamp 1708526493
-transform 1 0 1835 0 1 2032
-box -35 -1432 35 1432
-use sky130_fd_pr__res_high_po_0p35_4KAW53  XR8
-timestamp 1708526493
-transform 1 0 2035 0 1 2032
-box -35 -1432 35 1432
-use sky130_fd_pr__res_high_po_0p35_WM4CGA  XR9
-timestamp 1708526493
-transform 1 0 835 0 1 -668
-box -35 -932 35 932
-use sky130_fd_pr__res_high_po_0p35_WM4CGA  XR10
-timestamp 1708526493
-transform 1 0 1035 0 1 -668
-box -35 -932 35 932
-use sky130_fd_pr__res_high_po_0p35_WM4CGA  XR11
-timestamp 1708526493
-transform 1 0 1235 0 1 -668
-box -35 -932 35 932
-use sky130_fd_pr__res_high_po_0p35_WM4CGA  XR12
-timestamp 1708526493
-transform 1 0 1435 0 1 -668
-box -35 -932 35 932
-use sky130_fd_pr__res_high_po_0p35_WM4CGA  XR13
-timestamp 1708526493
-transform 1 0 1635 0 1 -668
-box -35 -932 35 932
-use sky130_fd_pr__res_high_po_0p35_WM4CGA  XR14
-timestamp 1708526493
-transform 1 0 1835 0 1 -668
-box -35 -932 35 932
+rect -1200 17400 -960 17600
+rect -600 17400 -360 17600
+rect 0 17400 240 17600
+rect 600 17400 840 17600
+rect 1200 17400 1440 17600
+rect 1800 17400 2040 17600
+rect 2400 17400 2640 17600
+rect 3000 17400 3240 17600
+rect -1040 16460 -960 17400
+rect -440 16460 -360 17400
+rect 160 16460 240 17400
+rect 760 16460 840 17400
+rect 1360 16460 1440 17400
+rect 1960 16460 2040 17400
+rect 2560 16460 2640 17400
+rect 3160 16460 3240 17400
+rect -1840 11620 -1380 11700
+rect -1840 11060 -1760 11620
+rect -1460 8200 -1380 11620
+rect -1460 8120 -960 8200
+rect -1040 7040 -960 8120
+rect -740 8120 -360 8200
+rect -2600 2740 -2400 2800
+rect -1840 2740 -1760 2920
+rect -740 2740 -660 8120
+rect 160 7260 240 8200
+rect -440 7180 240 7260
+rect 160 7040 240 7180
+rect 460 8120 840 8200
+rect 460 2740 540 8120
+rect 1360 7260 1440 8200
+rect 760 7180 1440 7260
+rect 1360 7040 1440 7180
+rect 1660 8120 2040 8200
+rect 1660 2740 1740 8120
+rect 2560 7260 2640 8220
+rect 1960 7180 2640 7260
+rect 2560 7060 2640 7180
+rect 3160 7540 3240 8220
+rect 4000 8000 4200 8200
+rect 4000 7540 4080 8000
+rect 3160 7460 4080 7540
+rect 2560 2760 2640 2900
+rect 3160 2760 3240 7460
+rect -2600 2660 -1760 2740
+rect -1040 2660 -360 2740
+rect 160 2660 840 2740
+rect 1360 2660 2040 2740
+rect 2560 2680 3240 2760
+rect -2600 2600 -2400 2660
+use sky130_fd_pr__res_high_po_0p35_3KK54B  XR1
+timestamp 1709128825
+transform 1 0 -999 0 1 12398
+box -201 -4598 201 4598
+use sky130_fd_pr__res_high_po_0p35_3KK54B  XR2
+timestamp 1709128825
+transform 1 0 -399 0 1 12398
+box -201 -4598 201 4598
+use sky130_fd_pr__res_high_po_0p35_3KK54B  XR3
+timestamp 1709128825
+transform 1 0 201 0 1 12398
+box -201 -4598 201 4598
+use sky130_fd_pr__res_high_po_0p35_3KK54B  XR4
+timestamp 1709128825
+transform 1 0 801 0 1 12398
+box -201 -4598 201 4598
+use sky130_fd_pr__res_high_po_0p35_3KK54B  XR5
+timestamp 1709128825
+transform 1 0 1401 0 1 12398
+box -201 -4598 201 4598
+use sky130_fd_pr__res_high_po_0p35_3KK54B  XR6
+timestamp 1709128825
+transform 1 0 2001 0 1 12398
+box -201 -4598 201 4598
+use sky130_fd_pr__res_high_po_0p35_3KK54B  XR7
+timestamp 1709128825
+transform 1 0 2601 0 1 12398
+box -201 -4598 201 4598
+use sky130_fd_pr__res_high_po_0p35_3KK54B  XR8
+timestamp 1709128825
+transform 1 0 3201 0 1 12398
+box -201 -4598 201 4598
+use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR9
+timestamp 1709128825
+transform 1 0 -999 0 1 4998
+box -201 -2598 201 2598
+use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR10
+timestamp 1709128825
+transform 1 0 -399 0 1 4998
+box -201 -2598 201 2598
+use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR11
+timestamp 1709128825
+transform 1 0 201 0 1 4998
+box -201 -2598 201 2598
+use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR12
+timestamp 1709128825
+transform 1 0 801 0 1 4998
+box -201 -2598 201 2598
+use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR13
+timestamp 1709128825
+transform 1 0 1401 0 1 4998
+box -201 -2598 201 2598
+use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR14
+timestamp 1709128825
+transform 1 0 2001 0 1 4998
+box -201 -2598 201 2598
+use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR15
+timestamp 1709128825
+transform 1 0 2601 0 1 4998
+box -201 -2598 201 2598
+use sky130_fd_pr__res_high_po_0p35_3KK54B  XR16
+timestamp 1709128825
+transform 1 0 -1799 0 1 6998
+box -201 -4598 201 4598
 << labels >>
-flabel metal1 2300 360 2500 560 0 FreeSans 256 0 0 0 out
+flabel metal1 4000 8000 4200 8200 0 FreeSans 256 0 0 0 out
 port 8 nsew
-flabel metal1 280 -600 480 -400 0 FreeSans 256 0 0 0 GND
-port 9 nsew
-flabel metal1 160 3700 360 3900 0 FreeSans 256 0 0 0 b0
-port 0 nsew
-flabel metal1 480 3700 680 3900 0 FreeSans 256 0 0 0 b1
+flabel metal1 -600 17400 -400 17600 0 FreeSans 256 0 0 0 b1
 port 1 nsew
-flabel metal1 780 3700 980 3900 0 FreeSans 256 0 0 0 b2
+flabel metal1 0 17400 200 17600 0 FreeSans 256 0 0 0 b2
 port 2 nsew
-flabel metal1 1100 3700 1300 3900 0 FreeSans 256 0 0 0 b3
+flabel metal1 600 17400 800 17600 0 FreeSans 256 0 0 0 b3
 port 3 nsew
-flabel metal1 1420 3700 1620 3900 0 FreeSans 256 0 0 0 b4
+flabel metal1 1200 17400 1400 17600 0 FreeSans 256 0 0 0 b4
 port 4 nsew
-flabel metal1 1740 3700 1940 3900 0 FreeSans 256 0 0 0 b5
+flabel metal1 1800 17400 2000 17600 0 FreeSans 256 0 0 0 b5
 port 5 nsew
-flabel metal1 2060 3700 2260 3900 0 FreeSans 256 0 0 0 b6
+flabel metal1 2400 17400 2600 17600 0 FreeSans 256 0 0 0 b6
 port 6 nsew
-flabel metal1 2400 3700 2600 3900 0 FreeSans 256 0 0 0 b7
+flabel metal1 3000 17400 3200 17600 0 FreeSans 256 0 0 0 b7
 port 7 nsew
-rlabel psubdiffcont 908 -2256 1372 -1804 1 VSUBS
-port 10 n
+flabel metal1 -1200 17400 -1000 17600 0 FreeSans 256 0 0 0 b0
+port 0 nsew
+flabel metal1 -2600 2600 -2400 2800 0 FreeSans 256 0 0 0 GND
+port 10 nsew
 << end >>
