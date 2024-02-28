@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Mon Feb 19 17:25:54 2024
+[*]
+[dumpfile] "/home/matt/work/asic-workshop/shuttle-2404/tt06-analog-r2r-dac/r2r_dac_control/test/r2r_dac_control.vcd"
+[dumpfile_mtime] "Mon Feb 19 17:25:23 2024"
+[dumpfile_size] 112336
+[savefile] "/home/matt/work/asic-workshop/shuttle-2404/tt06-analog-r2r-dac/r2r_dac_control/test/r2r_dac_control.gtkw"
+[timestart] 0
+[size] 1950 1070
+[pos] -1 -1
+*-32.700001 5410000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 333
+[signals_width] 234
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+r2r_dac_control.clk
+r2r_dac_control.n_rst
+@22
+r2r_dac_control.data[7:0]
+@28
+r2r_dac_control.load_divider
+r2r_dac_control.ext_data
+@22
+r2r_dac_control.r2r_out[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
