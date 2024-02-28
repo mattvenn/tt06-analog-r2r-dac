@@ -68,3 +68,4 @@ C {devices/lab_pin.sym} -470 220 0 0 {name=p9 sig_type=std_logic lab=b0
 }
 C {devices/gnd.sym} -100 80 0 0 {name=l5 lab=GND}
 C {devices/gnd.sym} -230 -90 0 0 {name=l6 lab=GND}
+C {devices/gnd.sym} 200 -60 0 0 {name=l7 lab=GND}

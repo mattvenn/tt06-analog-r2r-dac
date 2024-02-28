@@ -55,103 +55,102 @@ N 1860 130 2000 130 {
 lab=out}
 N 140 220 140 290 {
 lab=GND}
-C {devices/gnd.sym} 140 290 0 0 {name=l1 lab=GND}
 C {sky130_fd_pr/res_high_po_0p35.sym} 140 100 0 0 {name=R1
-L=10
+L=40
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
 C {sky130_fd_pr/res_high_po_0p35.sym} 410 100 0 0 {name=R2
-L=10
+L=40
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 390 100 0 0 {name=p11 lab=B}
+C {devices/lab_pin.sym} 390 100 0 0 {name=p11 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 650 100 0 0 {name=R3
-L=10
+L=40
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 630 100 0 0 {name=p12 lab=B}
+C {devices/lab_pin.sym} 630 100 0 0 {name=p12 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 900 100 0 0 {name=R4
-L=10
+L=40
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 880 100 0 0 {name=p13 lab=B}
+C {devices/lab_pin.sym} 880 100 0 0 {name=p13 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1150 100 0 0 {name=R5
-L=10
+L=40
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 1130 100 0 0 {name=p14 lab=B}
+C {devices/lab_pin.sym} 1130 100 0 0 {name=p14 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1390 100 0 0 {name=R6
-L=10
+L=40
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 1370 100 0 0 {name=p15 lab=B}
+C {devices/lab_pin.sym} 1370 100 0 0 {name=p15 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1640 100 0 0 {name=R7
-L=10
+L=40
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 1620 100 0 0 {name=p16 lab=B}
+C {devices/lab_pin.sym} 1620 100 0 0 {name=p16 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1860 100 0 0 {name=R8
-L=10
+L=40
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 1840 100 0 0 {name=p17 lab=B}
-C {devices/lab_pin.sym} 120 100 0 0 {name=p18 lab=B}
+C {devices/lab_pin.sym} 1840 100 0 0 {name=p17 lab=VSUBS}
+C {devices/lab_pin.sym} 120 100 0 0 {name=p18 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 300 130 3 0 {name=R9
-L=5
+L=20
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 300 150 3 0 {name=p20 lab=B}
+C {devices/lab_pin.sym} 300 150 3 0 {name=p20 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 570 130 3 0 {name=R10
-L=5
+L=20
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 570 150 3 0 {name=p22 lab=B}
+C {devices/lab_pin.sym} 570 150 3 0 {name=p22 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 820 130 3 0 {name=R11
-L=5
+L=20
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 820 150 3 0 {name=p24 lab=B}
+C {devices/lab_pin.sym} 820 150 3 0 {name=p24 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1070 130 3 0 {name=R12
-L=5
+L=20
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 1070 150 3 0 {name=p26 lab=B}
+C {devices/lab_pin.sym} 1070 150 3 0 {name=p26 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1310 130 3 0 {name=R13
-L=5
+L=20
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 1310 150 3 0 {name=p28 lab=B}
+C {devices/lab_pin.sym} 1310 150 3 0 {name=p28 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1560 130 3 0 {name=R14
-L=5
+L=20
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 1560 150 3 0 {name=p30 lab=B}
+C {devices/lab_pin.sym} 1560 150 3 0 {name=p30 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 1790 130 3 0 {name=R15
-L=5
+L=20
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 1790 150 3 0 {name=p32 lab=B}
+C {devices/lab_pin.sym} 1790 150 3 0 {name=p32 lab=VSUBS}
 C {sky130_fd_pr/res_high_po_0p35.sym} 140 190 0 0 {name=R16
-L=10
+L=40
 model=res_high_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} 120 190 0 0 {name=p34 lab=B}
+C {devices/lab_pin.sym} 120 190 0 0 {name=p34 lab=VSUBS}
 C {devices/ipin.sym} 140 40 0 0 {name=p1 lab=b0}
 C {devices/ipin.sym} 410 40 0 0 {name=p2 lab=b1}
 C {devices/ipin.sym} 650 40 0 0 {name=p3 lab=b2}
@@ -162,5 +161,6 @@ C {devices/ipin.sym} 1390 40 0 0 {name=p6 lab=b5
 C {devices/ipin.sym} 1640 40 0 0 {name=p7 lab=b6}
 C {devices/ipin.sym} 1860 40 0 0 {name=p8 lab=b7}
 C {devices/opin.sym} 2000 130 0 0 {name=p9 lab=out}
-C {devices/ipin.sym} 390 230 2 0 {name=p10 lab=B}
-C {devices/lab_pin.sym} 390 230 0 0 {name=p19 lab=B}
+C {devices/ipin.sym} 210 350 2 0 {name=p10 lab=VSUBS}
+C {devices/lab_pin.sym} 210 350 0 0 {name=p19 lab=VSUBS}
+C {devices/iopin.sym} 140 290 0 0 {name=p21 lab=GND}
