@@ -5,6 +5,8 @@ LVS work in progress. In the mag directory:
 1. run lvs.sh  - this runs the extract_forlvs.tcl script, getting a spice file with no Rs or Cs
 2. run netgen.sh - this runs netgen with the full_lvs.netgen script. This tries to compare the extracted lvs spice to the schematic (verilog + xschem spice)
 
+At least one issue is that 'schematic' should include the actual verilog design and at the moment it's just the src/project.v blackbox
+
 # Wed 28 Feb 14:36:01 CET 2024
 
 Feedback from Harald Pretl: Resistors should be larger than the Ron of the MOSFETs, so that R2R action is dominated by the poly resistors, not the MOSFET. I suggest 10kOhm and higher. 
