@@ -18,8 +18,8 @@ module tt_um_mattvenn_r2r_dac (
     wire [7:0] r2r_out;
 
     // ties for the output enables
-    assign uio_oe[0] = 0;
-    assign uio_oe[1] = 0;
+    assign uio_oe[0] = VGND;
+    assign uio_oe[1] = VGND;
 
     dac_controler dac_controller(
         .clk(clk),                  // expect a 10M clock
