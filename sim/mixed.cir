@@ -12,10 +12,10 @@ adut [ clk n_rst ext_data d7 d6 d5 d4 d3 d2 d1 d0 load_divider ] [b7 b6 b5 b4 b3
 * connect the driver to the R2R dac
 * had to edit spice exported by xschem to add the subckt and ends
 
-*.include "../xschem/simulation/r2r.spice" 
-.include "../mag/r2r.spice" 
+.include "../xschem/simulation/r2r.spice" 
+*.include "../mag/r2r.spice" 
 
-xr2r b0 b1 b2 b3 b4 b5 b6 b7 out 0 r2r
+xr2r b0 b1 b2 b3 b4 b5 b6 b7 out 0 0 r2r
 
 **** End of the ADC and its subcircuits.  Begin test circuit ****
 
