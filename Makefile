@@ -8,5 +8,5 @@ harden:
 	-e PDK=$(PDK) \
 	-u $(shell id -u $(USER)):$(shell id -g $(USER)) \
 	$(OPENLANE_IMAGE_NAME) \
-	/bin/bash -c "./flow.tcl -overwrite -design /work/r2r_dac_control -run_path runs -tag r2r"
+	/bin/bash -c "./flow.tcl -overwrite -design /work/r2r_dac_control -run_path /work/r2r_dac_control/runs -tag r2r"
 
