@@ -17,9 +17,15 @@ adut [ clk n_rst ext_data d7 d6 d5 d4 d3 d2 d1 d0 load_divider ] [b7 b6 b5 b4 b3
 
 xr2r b0 b1 b2 b3 b4 b5 b6 b7 out 0 0 r2r
 
+* simulate tt output path
+R1 out pin_out 500
+C1 out 0 5p
+
+
+
 **** End of the ADC and its subcircuits.  Begin test circuit ****
 
-.param vcc=3.3
+.param vcc=1.8
 vcc vcc 0 {vcc}
 
 * Digital clock signal
@@ -33,6 +39,6 @@ Vreset n_rst 0 PULSE 3 0 1n 20p 20p 1u 500u
 
 .control
 tran 100n 400u
-plot out
+plot pin_out
 .endc
 .end
