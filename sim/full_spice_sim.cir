@@ -1,0 +1,36 @@
+.lib /home/matt/work/asic-workshop/shuttle-2404/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.include "../mag/tt_um_mattvenn_r2r_dac.sim.spice"
+
+.param mc_mm_switch=1
+.param mc_pr_switch=1
+
+xtt clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6]
++ ua[7] ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uio_in[0]
++ uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[0]
++ uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0]
++ uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0]
++ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] vcc 0 tt_um_mattvenn_r2r_dac
+
+**** End of the ADC and its subcircuits.  Begin test circuit ****
+
+.param vcc=3.3
+vcc vcc 0 {vcc}
+
+* set ext data to be off, signal is generated inside
+Vext_data uio_in[0] 0 0
+
+* Digital clock signal
+
+aclock 0 clk clock
+.model clock d_osc cntl_array=[-1 1] freq_array=[1Meg 1Meg]
+
+* reset signal
+
+Vreset rst_n 0 PULSE 3 0 1n 20p 20p 1u 500u
+
+.control
+tran 100n 400u
+plot ua[0]
+.endc
+.end
