@@ -1,5 +1,5 @@
 load r2r.mag
-select top cell
+load tt_um_mattvenn_r2r_dac.mag
 extract do resistance
 extract all
 ext2sim labels on
@@ -12,5 +12,5 @@ ext2spice rthresh 10
 ext2spice extresist on
 ext2spice resistor tee on
 ext2spice format ngspice
-ext2spice -d -p . -o r2r_sim.spice
+ext2spice -d -o tt_um_mattvenn_r2r_dac.sim.spice
 quit -noprompt
