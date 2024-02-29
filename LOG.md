@@ -1,3 +1,7 @@
+# Thu 29 Feb 10:49:38 CET 2024
+
+got LVS to work - was due to badly named instances in the verilog stub and mixup between n_rst and rst_n
+
 # Wed 28 Feb 17:42:48 CET 2024
 
 LVS work in progress. In the mag directory:
