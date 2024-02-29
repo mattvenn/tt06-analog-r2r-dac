@@ -28,7 +28,7 @@ module tt_um_mattvenn_r2r_dac (
         .ext_data(uio_in[0]),       // if this is high, then DAC data comes from ui_in[7:0]
         .load_divider(uio_in[1]),   // load value set on data to the clock divider
         .data(ui_in),               // connect to ui_in[7:0]
-        .r2r_out(r2r_out)           // 8 bit out to the R2R DAC
+        .r2r_out(r2r_out),          // 8 bit out to the R2R DAC
         .VPWR(VPWR),
         .VGND(VGND)
         );
