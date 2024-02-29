@@ -3,7 +3,11 @@ magic:
 
 extract_lvs:
 	magic -noconsole -dnull extract_forlvs.tcl
-	rm *.ext
+	rm -f *.ext
+
+extract_sim:
+	magic -noconsole -dnull extract_forsim.tcl
+	rm -f *.ext
 
 lvs:
 	netgen -batch source full_lvs.netgen
