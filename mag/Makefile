@@ -9,6 +9,10 @@ extract_sim:
 	magic -noconsole -dnull extract_forsim.tcl
 	rm -f *.ext
 
+extractr2r_sim:
+	magic -noconsole -dnull extract_r2r_forsim.tcl
+	rm -f *.ext
+
 lvs:
 	netgen -batch source full_lvs.netgen
 
