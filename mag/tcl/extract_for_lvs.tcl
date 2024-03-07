@@ -1,9 +1,10 @@
+set project [lindex $argv $argc-1]
 box 0 0 0 0
-load tt_um_mattvenn_r2r_dac.mag
+load $project.mag
 extract do local
 extract all
 ext2spice lvs
 ext2spice cthresh infinite
 ext2spice short resistor
-ext2spice -d -o tt_um_mattvenn_r2r_dac.lvs.spice
+ext2spice -d -o $project.lvs.spice
 quit -noprompt

@@ -55,67 +55,67 @@ rect 160 2660 840 2740
 rect 1360 2660 2040 2740
 rect 2560 2680 3240 2760
 rect -2600 2600 -2400 2660
-use sky130_fd_pr__res_high_po_0p35_3KK54B  XR1
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR1
 timestamp 1709128825
 transform 1 0 -999 0 1 12398
 box -201 -4598 201 4598
-use sky130_fd_pr__res_high_po_0p35_3KK54B  XR2
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR2
 timestamp 1709128825
 transform 1 0 -399 0 1 12398
 box -201 -4598 201 4598
-use sky130_fd_pr__res_high_po_0p35_3KK54B  XR3
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR3
 timestamp 1709128825
 transform 1 0 201 0 1 12398
 box -201 -4598 201 4598
-use sky130_fd_pr__res_high_po_0p35_3KK54B  XR4
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR4
 timestamp 1709128825
 transform 1 0 801 0 1 12398
 box -201 -4598 201 4598
-use sky130_fd_pr__res_high_po_0p35_3KK54B  XR5
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR5
 timestamp 1709128825
 transform 1 0 1401 0 1 12398
 box -201 -4598 201 4598
-use sky130_fd_pr__res_high_po_0p35_3KK54B  XR6
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR6
 timestamp 1709128825
 transform 1 0 2001 0 1 12398
 box -201 -4598 201 4598
-use sky130_fd_pr__res_high_po_0p35_3KK54B  XR7
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR7
 timestamp 1709128825
 transform 1 0 2601 0 1 12398
 box -201 -4598 201 4598
-use sky130_fd_pr__res_high_po_0p35_3KK54B  XR8
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR8
 timestamp 1709128825
 transform 1 0 3201 0 1 12398
 box -201 -4598 201 4598
-use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR9
+use cells/sky130_fd_pr__res_high_po_0p35_QPS5FG  XR9
 timestamp 1709128825
 transform 1 0 -999 0 1 4998
 box -201 -2598 201 2598
-use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR10
+use cells/sky130_fd_pr__res_high_po_0p35_QPS5FG  XR10
 timestamp 1709128825
 transform 1 0 -399 0 1 4998
 box -201 -2598 201 2598
-use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR11
+use cells/sky130_fd_pr__res_high_po_0p35_QPS5FG  XR11
 timestamp 1709128825
 transform 1 0 201 0 1 4998
 box -201 -2598 201 2598
-use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR12
+use cells/sky130_fd_pr__res_high_po_0p35_QPS5FG  XR12
 timestamp 1709128825
 transform 1 0 801 0 1 4998
 box -201 -2598 201 2598
-use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR13
+use cells/sky130_fd_pr__res_high_po_0p35_QPS5FG  XR13
 timestamp 1709128825
 transform 1 0 1401 0 1 4998
 box -201 -2598 201 2598
-use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR14
+use cells/sky130_fd_pr__res_high_po_0p35_QPS5FG  XR14
 timestamp 1709128825
 transform 1 0 2001 0 1 4998
 box -201 -2598 201 2598
-use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR15
+use cells/sky130_fd_pr__res_high_po_0p35_QPS5FG  XR15
 timestamp 1709128825
 transform 1 0 2601 0 1 4998
 box -201 -2598 201 2598
-use sky130_fd_pr__res_high_po_0p35_3KK54B  XR16
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR16
 timestamp 1709128825
 transform 1 0 -1799 0 1 6998
 box -201 -4598 201 4598

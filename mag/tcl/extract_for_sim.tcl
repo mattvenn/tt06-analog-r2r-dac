@@ -1,9 +1,10 @@
-load tt_um_mattvenn_r2r_dac.mag
+set project [lindex $argv $argc-1]
+load $project.mag
 flatten tt_um_flat
 load tt_um_flat
 select top cell
-cellname delete tt_um_mattvenn_r2r_dac
-cellname rename tt_um_flat tt_um_mattvenn_r2r_dac
+cellname delete $project
+cellname rename tt_um_flat $project
 extract all
 ext2sim labels on
 ext2sim
@@ -13,5 +14,5 @@ ext2spice lvs
 ext2spice cthresh 0
 ext2spice extresist on
 ext2spice
-ext2spice -d -o tt_um_mattvenn_r2r_dac.sim.spice
+ext2spice -d -o $project.sim.spice
 quit -noprompt
