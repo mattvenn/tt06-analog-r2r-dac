@@ -1,4 +1,4 @@
-PROJECT_NAME := tt_um_mattvenn_r2r_dac
+PROJECT_NAME ?= tt_um_mattvenn_r2r_dac
 MAGIC_RC := $(PDK_ROOT)/sky130A/libs.tech/magic/sky130A.magicrc
 
 .PHONY: lvs magic start
@@ -20,7 +20,7 @@ $(PROJECT_NAME).lvs.spice: $(PROJECT_NAME).mag
 drc:
 	magic -noconsole -dnull tcl/drc.tcl $(PROJECT_NAME)
 	
-extract_sim:
+$(PROJECT_NAME).sim.spice: 
 	magic -noconsole -dnull tcl/extract_for_sim.tcl $(PROJECT_NAME)
 	rm -f *.ext
 
@@ -60,4 +60,4 @@ update_gds:
 	magic -noconsole -dnull tcl/update_gds_lef.tcl $(PROJECT_NAME)
 
 clean:
-	rm -f lvs.report $(PROJECT_NAME).lvs.spice
+	rm -f lvs.report *.lvs.spice *.nodes
