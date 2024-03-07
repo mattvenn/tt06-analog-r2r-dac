@@ -5,15 +5,15 @@ K {}
 V {}
 S {}
 E {}
-B 2 -290 -90 510 310 {flags=graph
-y1=0.0041
+B 2 -290 390 510 790 {flags=graph
+y1=5.1e-06
 y2=1.8
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1e-08
+x1=1e-10
 x2=0.000256
 divx=5
 subdivx=1
@@ -26,15 +26,15 @@ unitx=1
 logx=0
 logy=0
 }
-B 2 -290 390 510 790 {flags=graph
+B 2 -290 -90 510 310 {flags=graph
 y1=0
-y2=1.8
+y2=0.01
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1e-08
+x1=1e-10
 x2=0.000256
 divx=5
 subdivx=1
@@ -46,9 +46,34 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="4 4"
+color="4 6"
 node="b6
 b7"}
+B 2 -290 890 510 1290 {flags=graph
+y1=0.04
+y2=1.8
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1e-10
+x2=0.000256
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node="out2
+"
+color=7
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
+T {Simulation} -290 320 0 0 1 1 {}
+T {Bit 6 and 7} -300 -170 0 0 1 1 {}
+T {Post layout simulation} -290 810 0 0 1 1 {}
 N -540 -40 -540 -20 {
 lab=GND}
 N -570 -120 -540 -120 {
@@ -103,13 +128,19 @@ N -920 70 -890 70 {
 lab=b4}
 N -890 70 -890 90 {
 lab=b4}
+N -530 570 -490 570 {
+lab=out2}
+N -490 570 -450 570 {
+lab=out2}
+N -660 570 -590 570 {
+lab=#net2}
 C {r2r.sym} -810 410 0 0 {name=x1}
 C {devices/lab_pin.sym} -960 390 0 0 {name=p1 sig_type=std_logic lab=b0}
 C {devices/lab_pin.sym} -960 370 0 0 {name=p2 sig_type=std_logic lab=b1}
 C {devices/lab_pin.sym} -960 350 0 0 {name=p3 sig_type=std_logic lab=b2}
 C {devices/lab_pin.sym} -960 470 0 0 {name=p4 sig_type=std_logic lab=b3}
 C {devices/lab_pin.sym} -450 330 2 0 {name=p5 sig_type=std_logic lab=out}
-C {devices/code.sym} -870 670 0 0 {name=TT_MODELS
+C {devices/code.sym} -940 1180 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -132,7 +163,7 @@ C {devices/gnd.sym} -890 -20 0 0 {name=l4 lab=GND}
 C {devices/lab_pin.sym} -920 -120 0 0 {name=p9 sig_type=std_logic lab=b0
 }
 C {devices/gnd.sym} -660 350 0 0 {name=l7 lab=GND}
-C {devices/launcher.sym} -470 760 0 0 {name=h5
+C {devices/launcher.sym} -460 1280 0 0 {name=h5
 descr="load waves" 
 tclcommand="xschem raw_read $netlist_dir/testbench.raw tran"
 }
@@ -148,12 +179,12 @@ footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} -490 390 0 0 {name=l8 lab=GND}
 C {devices/gnd.sym} -960 490 0 0 {name=l9 lab=GND}
-C {devices/code.sym} -710 670 0 0 {name=SIMULATION
+C {devices/code.sym} -780 1180 0 0 {name=SIMULATION
 only_toplevel=false 
 value="
 * .options filetype=ascii
 .control
-tran 1u 256u uic
+tran 10n 256u uic
 write testbench.raw
 .endc
 .end
@@ -176,4 +207,31 @@ C {devices/vsource.sym} -890 120 0 0 {name=V8 value="pulse(0 1.8 0 0 0 16u 32u)"
 C {devices/gnd.sym} -890 170 0 0 {name=l11 lab=GND}
 C {devices/lab_pin.sym} -920 70 0 0 {name=p17 sig_type=std_logic lab=b4
 
+}
+C {r2r.sym} -810 650 0 0 {name=x2
+schematic=r2rpex.sim
+spice_sym_def=".include ../../mag/r2r.sim.spice"
+tclcommand="textwindow ../mag/r2r.sim.spice"}
+C {devices/lab_pin.sym} -960 630 0 0 {name=p18 sig_type=std_logic lab=b0}
+C {devices/lab_pin.sym} -960 610 0 0 {name=p19 sig_type=std_logic lab=b1}
+C {devices/lab_pin.sym} -960 590 0 0 {name=p20 sig_type=std_logic lab=b2}
+C {devices/lab_pin.sym} -960 710 0 0 {name=p21 sig_type=std_logic lab=b3}
+C {devices/lab_pin.sym} -450 570 2 0 {name=p22 sig_type=std_logic lab=out2}
+C {devices/gnd.sym} -660 590 0 0 {name=l12 lab=GND}
+C {devices/res.sym} -560 570 1 0 {name=R2
+value=500R
+footprint=1206
+device=resistor
+m=1}
+C {devices/capa.sym} -490 600 0 0 {name=C2
+m=1
+value=10p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} -490 630 0 0 {name=l13 lab=GND}
+C {devices/gnd.sym} -960 730 0 0 {name=l14 lab=GND}
+C {devices/lab_pin.sym} -960 570 0 0 {name=p23 sig_type=std_logic lab=b4}
+C {devices/lab_pin.sym} -960 650 0 0 {name=p24 sig_type=std_logic lab=b5}
+C {devices/lab_pin.sym} -960 670 0 0 {name=p25 sig_type=std_logic lab=b6}
+C {devices/lab_pin.sym} -960 690 0 0 {name=p26 sig_type=std_logic lab=b7
 }
