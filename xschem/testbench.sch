@@ -135,10 +135,10 @@ lab=out2}
 N -660 570 -590 570 {
 lab=#net2}
 C {r2r.sym} -810 410 0 0 {name=x1}
-C {devices/lab_pin.sym} -960 390 0 0 {name=p1 sig_type=std_logic lab=b0}
-C {devices/lab_pin.sym} -960 370 0 0 {name=p2 sig_type=std_logic lab=b1}
-C {devices/lab_pin.sym} -960 350 0 0 {name=p3 sig_type=std_logic lab=b2}
-C {devices/lab_pin.sym} -960 470 0 0 {name=p4 sig_type=std_logic lab=b3}
+C {devices/lab_pin.sym} -960 330 0 0 {name=p1 sig_type=std_logic lab=b0}
+C {devices/lab_pin.sym} -960 350 0 0 {name=p2 sig_type=std_logic lab=b1}
+C {devices/lab_pin.sym} -960 370 0 0 {name=p3 sig_type=std_logic lab=b2}
+C {devices/lab_pin.sym} -960 390 0 0 {name=p4 sig_type=std_logic lab=b3}
 C {devices/lab_pin.sym} -450 330 2 0 {name=p5 sig_type=std_logic lab=out}
 C {devices/code.sym} -940 1180 0 0 {name=TT_MODELS
 only_toplevel=true
@@ -178,7 +178,7 @@ value=10p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} -490 390 0 0 {name=l8 lab=GND}
-C {devices/gnd.sym} -960 490 0 0 {name=l9 lab=GND}
+C {devices/gnd.sym} -660 370 0 0 {name=l9 lab=GND}
 C {devices/code.sym} -780 1180 0 0 {name=SIMULATION
 only_toplevel=false 
 value="
@@ -189,10 +189,10 @@ write testbench.raw
 .endc
 .end
 "}
-C {devices/lab_pin.sym} -960 330 0 0 {name=p10 sig_type=std_logic lab=b4}
-C {devices/lab_pin.sym} -960 410 0 0 {name=p11 sig_type=std_logic lab=b5}
-C {devices/lab_pin.sym} -960 430 0 0 {name=p12 sig_type=std_logic lab=b6}
-C {devices/lab_pin.sym} -960 450 0 0 {name=p13 sig_type=std_logic lab=b7
+C {devices/lab_pin.sym} -960 410 0 0 {name=p10 sig_type=std_logic lab=b4}
+C {devices/lab_pin.sym} -960 430 0 0 {name=p11 sig_type=std_logic lab=b5}
+C {devices/lab_pin.sym} -960 450 0 0 {name=p12 sig_type=std_logic lab=b6}
+C {devices/lab_pin.sym} -960 470 0 0 {name=p13 sig_type=std_logic lab=b7
 }
 C {devices/vsource.sym} -540 120 0 0 {name=V5 value="pulse(0 1.8 0 0 0 128u 256u)" savecurrent=false}
 C {devices/gnd.sym} -540 170 0 0 {name=l5 lab=GND}
@@ -209,13 +209,9 @@ C {devices/lab_pin.sym} -920 70 0 0 {name=p17 sig_type=std_logic lab=b4
 
 }
 C {r2r.sym} -810 650 0 0 {name=x2
-schematic=r2r.sim
+schematic=r2r_parax.sim
 spice_sym_def=".include ../../mag/r2r.sim.spice"
 tclcommand="textwindow ../mag/r2r.sim.spice"}
-C {devices/lab_pin.sym} -960 630 0 0 {name=p18 sig_type=std_logic lab=b0}
-C {devices/lab_pin.sym} -960 610 0 0 {name=p19 sig_type=std_logic lab=b1}
-C {devices/lab_pin.sym} -960 590 0 0 {name=p20 sig_type=std_logic lab=b2}
-C {devices/lab_pin.sym} -960 710 0 0 {name=p21 sig_type=std_logic lab=b3}
 C {devices/lab_pin.sym} -450 570 2 0 {name=p22 sig_type=std_logic lab=out2}
 C {devices/gnd.sym} -660 590 0 0 {name=l12 lab=GND}
 C {devices/res.sym} -560 570 1 0 {name=R2
@@ -229,9 +225,13 @@ value=10p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} -490 630 0 0 {name=l13 lab=GND}
-C {devices/gnd.sym} -960 730 0 0 {name=l14 lab=GND}
-C {devices/lab_pin.sym} -960 570 0 0 {name=p23 sig_type=std_logic lab=b4}
-C {devices/lab_pin.sym} -960 650 0 0 {name=p24 sig_type=std_logic lab=b5}
-C {devices/lab_pin.sym} -960 670 0 0 {name=p25 sig_type=std_logic lab=b6}
-C {devices/lab_pin.sym} -960 690 0 0 {name=p26 sig_type=std_logic lab=b7
+C {devices/gnd.sym} -660 610 0 0 {name=l14 lab=GND}
+C {devices/lab_pin.sym} -960 570 0 0 {name=p18 sig_type=std_logic lab=b0}
+C {devices/lab_pin.sym} -960 590 0 0 {name=p19 sig_type=std_logic lab=b1}
+C {devices/lab_pin.sym} -960 610 0 0 {name=p20 sig_type=std_logic lab=b2}
+C {devices/lab_pin.sym} -960 630 0 0 {name=p21 sig_type=std_logic lab=b3}
+C {devices/lab_pin.sym} -960 650 0 0 {name=p23 sig_type=std_logic lab=b4}
+C {devices/lab_pin.sym} -960 670 0 0 {name=p24 sig_type=std_logic lab=b5}
+C {devices/lab_pin.sym} -960 690 0 0 {name=p25 sig_type=std_logic lab=b6}
+C {devices/lab_pin.sym} -960 710 0 0 {name=p26 sig_type=std_logic lab=b7
 }
