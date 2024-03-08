@@ -1,4 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -209,8 +209,8 @@ C {devices/lab_pin.sym} -920 70 0 0 {name=p17 sig_type=std_logic lab=b4
 
 }
 C {r2r.sym} -810 650 0 0 {name=x2
-schematic=r2r.sim
-spice_sym_def=".include ../../mag/r2r.sim.spice"
+schematic=r2r_pex
+spice_sym_def="tcleval(.include [file normalize ../mag/r2r.sim.spice])"
 tclcommand="textwindow ../mag/r2r.sim.spice"}
 C {devices/lab_pin.sym} -960 630 0 0 {name=p18 sig_type=std_logic lab=b0}
 C {devices/lab_pin.sym} -960 610 0 0 {name=p19 sig_type=std_logic lab=b1}

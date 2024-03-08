@@ -1,6 +1,6 @@
 * NGSPICE file created from r2r.ext - technology: sky130A
 
-.subckt r2r b0 b1 b2 b3 b4 b5 b6 b7 out GND
+.subckt r2r_pex b0 b1 b2 b3 b4 b5 b6 b7 out GND
 X0 a_766_6998# a_1366_2566# a_n1964_2436# sky130_fd_pr__res_high_po_0p35 l=20
 X1 b0.t0 a_n1834_10998# a_n1964_2436# sky130_fd_pr__res_high_po_0p35 l=40
 X2 b6.t0 a_1966_6998# a_n1964_2436# sky130_fd_pr__res_high_po_0p35 l=40
