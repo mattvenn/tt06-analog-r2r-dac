@@ -4,7 +4,7 @@ flatten tt_um_flat
 load tt_um_flat
 select top cell
 cellname delete $project
-cellname rename tt_um_flat $project
+cellname rename tt_um_flat ${project}_parax
 extract all
 ext2sim labels on
 ext2sim
