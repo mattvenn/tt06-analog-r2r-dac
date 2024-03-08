@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1e-10
-x2=0.000256
+x1=-1.27999e-05
+x2=0.0002432
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -34,8 +34,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1e-10
-x2=0.000256
+x1=-1.27999e-05
+x2=0.0002432
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -57,8 +57,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1e-10
-x2=0.000256
+x1=-1.27999e-05
+x2=0.0002432
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -209,7 +209,7 @@ C {devices/lab_pin.sym} -920 70 0 0 {name=p17 sig_type=std_logic lab=b4
 
 }
 C {r2r.sym} -810 650 0 0 {name=x2
-schematic=r2rpex.sim
+schematic=r2r.sim
 spice_sym_def=".include ../../mag/r2r.sim.spice"
 tclcommand="textwindow ../mag/r2r.sim.spice"}
 C {devices/lab_pin.sym} -960 630 0 0 {name=p18 sig_type=std_logic lab=b0}
