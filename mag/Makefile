@@ -32,10 +32,10 @@ lvs: lvs.report
     if grep -q "match uniquely" lvs.report; then \
         match=1; \
     fi; \
-    if grep -q "Property errors were found" lvs.report || grep -q "failed pin matching" lvs.report; then \
+    if grep -q "Property errors were found" lvs.report; then \
         propOk=0; \
     fi; \
-    if grep -q "Final result: Netlists do not match" lvs.report; then \
+    if grep -q "failed pin matching" lvs.report; then \
         match=0; \
     fi; \
     if grep -q "Final result: Netlists do not match" lvs.report; then \
