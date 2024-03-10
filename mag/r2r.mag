@@ -1,9 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709129632
+timestamp 1710085389
 << pwell >>
 rect -2480 2660 -1760 2740
+<< viali >>
+rect -2102 3022 -1914 3210
 << metal1 >>
 rect -1200 17400 -960 17600
 rect -600 17400 -360 17600
@@ -27,6 +29,10 @@ rect -1460 8200 -1380 11620
 rect -1460 8120 -960 8200
 rect -1040 7040 -960 8120
 rect -740 8120 -360 8200
+rect -2586 3210 -1902 3216
+rect -2586 3022 -2102 3210
+rect -1914 3022 -1902 3210
+rect -2586 3016 -1902 3022
 rect -2600 2740 -2400 2800
 rect -1840 2740 -1760 2920
 rect -740 2740 -660 8120
@@ -55,7 +61,7 @@ rect 160 2660 840 2740
 rect 1360 2660 2040 2740
 rect 2560 2680 3240 2760
 rect -2600 2600 -2400 2660
-use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR1
+use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR1 cells
 timestamp 1709128825
 transform 1 0 -999 0 1 12398
 box -201 -4598 201 4598
@@ -87,7 +93,7 @@ use cells/sky130_fd_pr__res_high_po_0p35_3KK54B  XR8
 timestamp 1709128825
 transform 1 0 3201 0 1 12398
 box -201 -4598 201 4598
-use cells/sky130_fd_pr__res_high_po_0p35_QPS5FG  XR9
+use cells/sky130_fd_pr__res_high_po_0p35_QPS5FG  XR9 cells
 timestamp 1709128825
 transform 1 0 -999 0 1 4998
 box -201 -2598 201 2598
@@ -140,4 +146,6 @@ flabel metal1 -1200 17400 -1000 17600 0 FreeSans 256 0 0 0 b0
 port 0 nsew
 flabel metal1 -2600 2600 -2400 2800 0 FreeSans 256 0 0 0 GND
 port 10 nsew
+flabel metal1 -2586 3016 -2386 3216 0 FreeSans 256 0 0 0 VSUBS
+port 9 nsew
 << end >>
