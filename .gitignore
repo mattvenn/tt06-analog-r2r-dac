@@ -4,8 +4,7 @@
 *.vcd
 runs
 tt_submission
-src/user_config.tcl
-test/sim_build
-test/__pycache__/
-test/results.xml
-test/gate_level_netlist.v
+verilog/test/sim_build
+verilog/test/__pycache__/
+verilog/test/results.xml
+verilog/test/gate_level_netlist.v

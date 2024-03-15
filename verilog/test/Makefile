@@ -4,7 +4,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 
-VERILOG_SOURCES += $(PWD)/../src/r2r_dac_control.v
+VERILOG_SOURCES += $(PWD)/../rtl/r2r_dac_control.v
 # use VHDL_SOURCES for VHDL files
 
 # TOPLEVEL is the name of the toplevel module in your Verilog or VHDL file
