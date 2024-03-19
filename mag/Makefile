@@ -20,7 +20,7 @@ $(PROJECT_NAME).lvs.spice: $(PROJECT_NAME).mag
 drc:
 	magic -noconsole -dnull tcl/drc.tcl $(PROJECT_NAME)
 	
-$(PROJECT_NAME).sim.spice: 
+$(PROJECT_NAME).sim.spice: $(PROJECT_NAME).mag
 	magic -noconsole -dnull tcl/extract_for_sim.tcl $(PROJECT_NAME)
 	rm -f *.ext
 

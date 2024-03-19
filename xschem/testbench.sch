@@ -1,4 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.27999e-05
-x2=0.0002432
+x1=1e-10
+x2=0.000256
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -28,14 +28,14 @@ logy=0
 }
 B 2 -290 -90 510 310 {flags=graph
 y1=0
-y2=0.01
+y2=1.8
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.27999e-05
-x2=0.0002432
+x1=1e-10
+x2=0.000256
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -50,15 +50,15 @@ color="4 6"
 node="b6
 b7"}
 B 2 -290 890 510 1290 {flags=graph
-y1=0.04
+y1=1.9e-05
 y2=1.8
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.27999e-05
-x2=0.0002432
+x1=1e-10
+x2=0.000256
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -210,8 +210,8 @@ C {devices/lab_pin.sym} -920 70 0 0 {name=p17 sig_type=std_logic lab=b4
 }
 C {r2r.sym} -810 650 0 0 {name=x2
 schematic=r2r_parax.sim
-spice_sym_def=".include ../../mag/r2r.sim.spice"
-tclcommand="textwindow ../mag/r2r.sim.spice"}
+spice_sym_def="tcleval(.include [file normalize ../mag/r2r.sim.spice])"
+tclcommand="textwindow [file normalize ../mag/r2r.sim.spice]"}
 C {devices/lab_pin.sym} -450 570 2 0 {name=p22 sig_type=std_logic lab=out2}
 C {devices/gnd.sym} -660 590 0 0 {name=l12 lab=GND}
 C {devices/res.sym} -560 570 1 0 {name=R2
