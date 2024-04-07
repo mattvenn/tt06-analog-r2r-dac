@@ -13,6 +13,5 @@ extresist
 ext2spice lvs
 ext2spice cthresh 0
 ext2spice extresist on
-ext2spice
-ext2spice -d -o $project.sim.spice
+ext2spice -o $project.sim.spice
 quit -noprompt
