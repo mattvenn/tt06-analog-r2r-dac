@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709205927
+timestamp 1715264371
 << viali >>
 rect 4905 15113 4939 15147
 rect 8861 15113 8895 15147
@@ -21393,298 +21393,301 @@ timestamp 1688980957
 transform 1 0 13432 0 1 14688
 box -38 -48 130 592
 << labels >>
-flabel metal4 s 4094 496 4414 15280 0 FreeSans 1920 90 0 0 VGND
-port 0 nsew ground bidirectional
-flabel metal4 s 7796 496 8116 15280 0 FreeSans 1920 90 0 0 VGND
-port 0 nsew ground bidirectional
-flabel metal4 s 11498 496 11818 15280 0 FreeSans 1920 90 0 0 VGND
-port 0 nsew ground bidirectional
-flabel metal4 s 15200 496 15520 15280 0 FreeSans 1920 90 0 0 VGND
-port 0 nsew ground bidirectional
-flabel metal4 s 2243 496 2563 15280 0 FreeSans 1920 90 0 0 VPWR
-port 1 nsew power bidirectional
-flabel metal4 s 5945 496 6265 15280 0 FreeSans 1920 90 0 0 VPWR
-port 1 nsew power bidirectional
-flabel metal4 s 9647 496 9967 15280 0 FreeSans 1920 90 0 0 VPWR
-port 1 nsew power bidirectional
-flabel metal4 s 13349 496 13669 15280 0 FreeSans 1920 90 0 0 VPWR
-port 1 nsew power bidirectional
-flabel metal2 s 15014 15600 15070 16000 0 FreeSans 224 90 0 0 clk
-port 2 nsew signal input
-flabel metal2 s 12438 15600 12494 16000 0 FreeSans 224 90 0 0 data[0]
-port 3 nsew signal input
-flabel metal2 s 11150 15600 11206 16000 0 FreeSans 224 90 0 0 data[1]
-port 4 nsew signal input
-flabel metal2 s 9862 15600 9918 16000 0 FreeSans 224 90 0 0 data[2]
-port 5 nsew signal input
-flabel metal2 s 8574 15600 8630 16000 0 FreeSans 224 90 0 0 data[3]
-port 6 nsew signal input
-flabel metal2 s 7286 15600 7342 16000 0 FreeSans 224 90 0 0 data[4]
-port 7 nsew signal input
-flabel metal2 s 5998 15600 6054 16000 0 FreeSans 224 90 0 0 data[5]
-port 8 nsew signal input
-flabel metal2 s 4710 15600 4766 16000 0 FreeSans 224 90 0 0 data[6]
-port 9 nsew signal input
-flabel metal2 s 3422 15600 3478 16000 0 FreeSans 224 90 0 0 data[7]
-port 10 nsew signal input
-flabel metal2 s 2134 15600 2190 16000 0 FreeSans 224 90 0 0 ext_data
-port 11 nsew signal input
-flabel metal2 s 846 15600 902 16000 0 FreeSans 224 90 0 0 load_divider
-port 12 nsew signal input
-flabel metal2 s 13726 15600 13782 16000 0 FreeSans 224 90 0 0 n_rst
-port 13 nsew signal input
-flabel metal3 s 15600 1096 16000 1216 0 FreeSans 480 0 0 0 r2r_out[0]
-port 14 nsew signal tristate
-flabel metal3 s 15600 3000 16000 3120 0 FreeSans 480 0 0 0 r2r_out[1]
-port 15 nsew signal tristate
-flabel metal3 s 15600 4904 16000 5024 0 FreeSans 480 0 0 0 r2r_out[2]
-port 16 nsew signal tristate
-flabel metal3 s 15600 6808 16000 6928 0 FreeSans 480 0 0 0 r2r_out[3]
-port 17 nsew signal tristate
-flabel metal3 s 15600 8712 16000 8832 0 FreeSans 480 0 0 0 r2r_out[4]
-port 18 nsew signal tristate
-flabel metal3 s 15600 10616 16000 10736 0 FreeSans 480 0 0 0 r2r_out[5]
-port 19 nsew signal tristate
-flabel metal3 s 15600 12520 16000 12640 0 FreeSans 480 0 0 0 r2r_out[6]
-port 20 nsew signal tristate
-flabel metal3 s 15600 14424 16000 14544 0 FreeSans 480 0 0 0 r2r_out[7]
-port 21 nsew signal tristate
-rlabel via1 8036 14688 8036 14688 0 VGND
-rlabel metal1 7958 15232 7958 15232 0 VPWR
-rlabel metal1 14168 14382 14168 14382 0 _000_
-rlabel metal1 9660 12954 9660 12954 0 _001_
-rlabel metal1 11458 14450 11458 14450 0 _002_
-rlabel metal2 9246 14246 9246 14246 0 _003_
-rlabel metal1 8878 12954 8878 12954 0 _004_
-rlabel metal1 6992 14042 6992 14042 0 _005_
-rlabel metal1 5699 12750 5699 12750 0 _006_
-rlabel metal2 5014 14246 5014 14246 0 _007_
-rlabel metal1 4472 12750 4472 12750 0 _008_
-rlabel metal1 13708 6766 13708 6766 0 _009_
-rlabel metal1 13064 5678 13064 5678 0 _010_
-rlabel metal2 13662 8092 13662 8092 0 _011_
-rlabel metal2 13662 9180 13662 9180 0 _012_
-rlabel metal1 13570 10030 13570 10030 0 _013_
-rlabel metal2 13662 11356 13662 11356 0 _014_
-rlabel metal2 13662 12444 13662 12444 0 _015_
-rlabel metal1 13294 13294 13294 13294 0 _016_
-rlabel metal1 10994 6936 10994 6936 0 _017_
-rlabel metal2 10350 2754 10350 2754 0 _018_
-rlabel metal1 11776 4250 11776 4250 0 _019_
-rlabel metal1 8724 5066 8724 5066 0 _020_
-rlabel metal1 9250 2958 9250 2958 0 _021_
-rlabel metal2 5934 2754 5934 2754 0 _022_
-rlabel metal1 4917 4046 4917 4046 0 _023_
-rlabel metal1 5796 5338 5796 5338 0 _024_
-rlabel metal1 9338 6426 9338 6426 0 _025_
-rlabel via1 4457 6154 4457 6154 0 _026_
-rlabel metal1 4891 7990 4891 7990 0 _027_
-rlabel metal1 5244 8942 5244 8942 0 _028_
-rlabel metal2 9706 8194 9706 8194 0 _029_
-rlabel via1 5193 9486 5193 9486 0 _030_
-rlabel metal1 10308 9486 10308 9486 0 _031_
-rlabel metal2 9706 11458 9706 11458 0 _032_
-rlabel metal2 9246 11866 9246 11866 0 _033_
-rlabel metal1 8188 11322 8188 11322 0 _034_
-rlabel via1 7020 11662 7020 11662 0 _035_
-rlabel metal1 8142 11186 8142 11186 0 _036_
-rlabel metal1 5106 10778 5106 10778 0 _037_
-rlabel metal1 5474 11696 5474 11696 0 _038_
-rlabel metal1 5106 11322 5106 11322 0 _039_
-rlabel metal1 5474 11084 5474 11084 0 _040_
-rlabel metal1 7866 11628 7866 11628 0 _041_
-rlabel metal1 7544 11050 7544 11050 0 _042_
-rlabel metal1 6394 11526 6394 11526 0 _043_
-rlabel metal1 7452 11186 7452 11186 0 _044_
-rlabel metal1 7268 8398 7268 8398 0 _045_
-rlabel metal1 7222 10234 7222 10234 0 _046_
-rlabel metal1 6302 11050 6302 11050 0 _047_
-rlabel metal1 5290 11628 5290 11628 0 _048_
-rlabel metal1 4462 11322 4462 11322 0 _049_
-rlabel metal1 5842 11186 5842 11186 0 _050_
-rlabel metal1 6762 8398 6762 8398 0 _051_
-rlabel metal1 7636 5746 7636 5746 0 _052_
-rlabel metal1 10074 10064 10074 10064 0 _053_
-rlabel metal1 8372 8398 8372 8398 0 _054_
-rlabel metal1 12558 7242 12558 7242 0 _055_
-rlabel metal2 13110 7140 13110 7140 0 _056_
-rlabel metal2 9062 7276 9062 7276 0 _057_
-rlabel metal1 13386 6222 13386 6222 0 _058_
-rlabel metal2 8694 8398 8694 8398 0 _059_
-rlabel metal1 10350 6766 10350 6766 0 _060_
-rlabel metal2 12558 6426 12558 6426 0 _061_
-rlabel metal1 11914 7990 11914 7990 0 _062_
-rlabel via1 12185 6222 12185 6222 0 _063_
-rlabel metal1 12466 6290 12466 6290 0 _064_
-rlabel metal1 5336 9010 5336 9010 0 _065_
-rlabel metal1 6711 4046 6711 4046 0 _066_
-rlabel metal2 10994 9180 10994 9180 0 _067_
-rlabel metal2 11822 8704 11822 8704 0 _068_
-rlabel metal2 12006 8806 12006 8806 0 _069_
-rlabel metal1 11500 9010 11500 9010 0 _070_
-rlabel metal1 12742 8398 12742 8398 0 _071_
-rlabel metal1 13386 9452 13386 9452 0 _072_
-rlabel metal1 13294 9690 13294 9690 0 _073_
-rlabel metal1 12696 9078 12696 9078 0 _074_
-rlabel metal1 14030 9554 14030 9554 0 _075_
-rlabel metal1 12926 10030 12926 10030 0 _076_
-rlabel metal1 13248 10778 13248 10778 0 _077_
-rlabel metal2 10672 5372 10672 5372 0 _078_
-rlabel metal1 12374 10982 12374 10982 0 _079_
-rlabel metal2 12650 10982 12650 10982 0 _080_
-rlabel metal1 12006 12784 12006 12784 0 _081_
-rlabel via1 12466 11186 12466 11186 0 _082_
-rlabel metal1 13524 11322 13524 11322 0 _083_
-rlabel metal1 12236 12274 12236 12274 0 _084_
-rlabel metal1 12880 12750 12880 12750 0 _085_
-rlabel metal1 12098 12716 12098 12716 0 _086_
-rlabel metal1 14030 12784 14030 12784 0 _087_
-rlabel metal1 12144 13362 12144 13362 0 _088_
-rlabel metal1 12052 13498 12052 13498 0 _089_
-rlabel metal1 12374 13770 12374 13770 0 _090_
-rlabel metal1 12604 12410 12604 12410 0 _091_
-rlabel metal1 12696 13498 12696 13498 0 _092_
-rlabel metal2 10626 6630 10626 6630 0 _093_
-rlabel metal1 8372 3366 8372 3366 0 _094_
-rlabel metal1 11454 3570 11454 3570 0 _095_
-rlabel metal1 10718 2482 10718 2482 0 _096_
-rlabel metal1 10672 4794 10672 4794 0 _097_
-rlabel metal1 12006 5236 12006 5236 0 _098_
-rlabel metal1 12282 5100 12282 5100 0 _099_
-rlabel metal1 11730 4080 11730 4080 0 _100_
-rlabel metal2 10442 4845 10442 4845 0 _101_
-rlabel metal1 10534 4522 10534 4522 0 _102_
-rlabel metal2 10810 4828 10810 4828 0 _103_
-rlabel metal1 9384 5134 9384 5134 0 _104_
-rlabel metal1 8648 3706 8648 3706 0 _105_
-rlabel metal2 9430 3740 9430 3740 0 _106_
-rlabel metal1 8418 3638 8418 3638 0 _107_
-rlabel metal1 9430 3706 9430 3706 0 _108_
-rlabel metal1 7590 3026 7590 3026 0 _109_
-rlabel metal1 6486 2482 6486 2482 0 _110_
-rlabel metal2 6302 4488 6302 4488 0 _111_
-rlabel metal1 7222 4692 7222 4692 0 _112_
-rlabel metal1 7222 4250 7222 4250 0 _113_
-rlabel metal1 5566 4556 5566 4556 0 _114_
-rlabel metal1 6946 4522 6946 4522 0 _115_
-rlabel metal1 7958 4794 7958 4794 0 _116_
-rlabel metal1 7590 5066 7590 5066 0 _117_
-rlabel metal1 6854 4692 6854 4692 0 _118_
-rlabel metal1 6118 4794 6118 4794 0 _119_
-rlabel metal1 8234 6970 8234 6970 0 _120_
-rlabel metal1 7912 6902 7912 6902 0 _121_
-rlabel metal1 8418 6902 8418 6902 0 _122_
-rlabel metal1 8786 6222 8786 6222 0 _123_
-rlabel metal1 6532 6834 6532 6834 0 _124_
-rlabel metal1 6256 6698 6256 6698 0 _125_
-rlabel metal1 6210 6868 6210 6868 0 _126_
-rlabel metal1 4646 6800 4646 6800 0 _127_
-rlabel metal1 5336 7990 5336 7990 0 _128_
-rlabel metal1 6302 7888 6302 7888 0 _129_
-rlabel metal1 5290 7888 5290 7888 0 _130_
-rlabel metal2 6302 8738 6302 8738 0 _131_
-rlabel metal1 7774 7344 7774 7344 0 _132_
-rlabel metal1 7866 8296 7866 8296 0 _133_
-rlabel metal1 5566 8976 5566 8976 0 _134_
-rlabel metal1 8786 8296 8786 8296 0 _135_
-rlabel metal2 9154 7956 9154 7956 0 _136_
-rlabel metal1 8878 8364 8878 8364 0 _137_
-rlabel metal1 9154 7922 9154 7922 0 _138_
-rlabel metal1 9476 7922 9476 7922 0 _139_
-rlabel metal1 7084 8874 7084 8874 0 _140_
-rlabel metal1 9798 10132 9798 10132 0 _141_
-rlabel metal1 6302 9690 6302 9690 0 _142_
-rlabel metal2 10074 10472 10074 10472 0 _143_
-rlabel metal1 8648 9622 8648 9622 0 _144_
-rlabel metal1 9246 10064 9246 10064 0 _145_
-rlabel metal1 9890 11220 9890 11220 0 _146_
-rlabel metal1 10258 10778 10258 10778 0 _147_
-rlabel metal1 4646 13838 4646 13838 0 _148_
-rlabel metal1 5336 4658 5336 4658 0 _149_
-rlabel metal1 10672 12614 10672 12614 0 _150_
-rlabel metal1 10304 14042 10304 14042 0 _151_
-rlabel metal1 8510 13906 8510 13906 0 _152_
-rlabel metal1 8326 12614 8326 12614 0 _153_
-rlabel metal1 6854 13906 6854 13906 0 _154_
-rlabel metal2 7314 12206 7314 12206 0 _155_
-rlabel metal1 6624 12954 6624 12954 0 _156_
-rlabel metal1 4508 13906 4508 13906 0 _157_
-rlabel metal2 4324 12852 4324 12852 0 _158_
-rlabel metal2 8142 11951 8142 11951 0 _159_
-rlabel metal2 8970 11458 8970 11458 0 _160_
-rlabel viali 9153 11662 9153 11662 0 _161_
-rlabel metal1 10258 9112 10258 9112 0 clk
-rlabel metal1 9292 5814 9292 5814 0 clknet_0_clk
-rlabel metal1 4278 5610 4278 5610 0 clknet_2_0__leaf_clk
-rlabel metal1 10994 2958 10994 2958 0 clknet_2_1__leaf_clk
-rlabel metal1 5106 14484 5106 14484 0 clknet_2_2__leaf_clk
-rlabel metal1 9614 11730 9614 11730 0 clknet_2_3__leaf_clk
-rlabel metal1 11224 4114 11224 4114 0 counter\[0\]
-rlabel metal2 4554 8228 4554 8228 0 counter\[10\]
-rlabel metal1 6210 8432 6210 8432 0 counter\[11\]
-rlabel metal1 9384 8398 9384 8398 0 counter\[12\]
-rlabel metal2 6302 10608 6302 10608 0 counter\[13\]
-rlabel metal1 4462 10642 4462 10642 0 counter\[14\]
-rlabel metal1 3910 11186 3910 11186 0 counter\[15\]
-rlabel metal1 11132 4046 11132 4046 0 counter\[1\]
-rlabel metal2 12374 4964 12374 4964 0 counter\[2\]
-rlabel metal1 10120 4658 10120 4658 0 counter\[3\]
-rlabel metal1 8096 4726 8096 4726 0 counter\[4\]
-rlabel metal1 8188 4658 8188 4658 0 counter\[5\]
-rlabel metal1 8372 4590 8372 4590 0 counter\[6\]
-rlabel metal2 6946 5372 6946 5372 0 counter\[7\]
-rlabel via1 8891 7310 8891 7310 0 counter\[8\]
-rlabel metal1 8602 11186 8602 11186 0 counter\[9\]
-rlabel metal1 12604 14926 12604 14926 0 data[0]
-rlabel metal1 11224 14926 11224 14926 0 data[1]
-rlabel metal1 10028 14926 10028 14926 0 data[2]
-rlabel metal1 9062 14960 9062 14960 0 data[3]
-rlabel metal1 7360 14926 7360 14926 0 data[4]
-rlabel metal1 5980 14926 5980 14926 0 data[5]
-rlabel metal1 5290 14892 5290 14892 0 data[6]
-rlabel metal1 3496 14926 3496 14926 0 data[7]
-rlabel metal2 10442 12648 10442 12648 0 divider\[0\]
-rlabel metal2 8786 11560 8786 11560 0 divider\[1\]
-rlabel metal1 8556 14586 8556 14586 0 divider\[2\]
-rlabel metal1 7682 12784 7682 12784 0 divider\[3\]
-rlabel metal1 7866 14518 7866 14518 0 divider\[4\]
-rlabel metal1 6808 11798 6808 11798 0 divider\[5\]
-rlabel metal1 5198 14960 5198 14960 0 divider\[6\]
-rlabel metal1 3588 11730 3588 11730 0 divider\[7\]
-rlabel metal1 2254 14926 2254 14926 0 ext_data
-rlabel metal1 966 14926 966 14926 0 load_divider
-rlabel metal1 13800 14926 13800 14926 0 n_rst
-rlabel metal1 10166 12682 10166 12682 0 net1
-rlabel metal1 4830 14926 4830 14926 0 net10
-rlabel metal1 14214 14450 14214 14450 0 net11
-rlabel metal1 12788 14518 12788 14518 0 net12
-rlabel metal1 6532 4046 6532 4046 0 net13
-rlabel metal1 8280 3570 8280 3570 0 net14
-rlabel metal2 5382 8092 5382 8092 0 net15
-rlabel metal1 11592 4658 11592 4658 0 net16
-rlabel metal1 13570 5168 13570 5168 0 net17
-rlabel metal1 6348 5134 6348 5134 0 net18
-rlabel metal1 10442 6834 10442 6834 0 net19
-rlabel metal1 11592 7854 11592 7854 0 net2
-rlabel metal2 11178 11356 11178 11356 0 net20
-rlabel metal1 14306 8398 14306 8398 0 net21
-rlabel metal1 12788 13294 12788 13294 0 net22
-rlabel metal1 10488 14790 10488 14790 0 net3
-rlabel metal1 8970 12750 8970 12750 0 net4
-rlabel metal1 7866 13838 7866 13838 0 net5
-rlabel viali 6026 13290 6026 13290 0 net6
-rlabel metal1 4830 13804 4830 13804 0 net7
-rlabel metal1 4278 13260 4278 13260 0 net8
-rlabel metal1 6578 10166 6578 10166 0 net9
-rlabel metal3 15372 1156 15372 1156 0 r2r_out[0]
-rlabel metal3 15096 3060 15096 3060 0 r2r_out[1]
-rlabel metal1 12650 8330 12650 8330 0 r2r_out[2]
-rlabel metal1 14996 8806 14996 8806 0 r2r_out[3]
-rlabel metal1 15042 9894 15042 9894 0 r2r_out[4]
-rlabel metal3 15418 10676 15418 10676 0 r2r_out[5]
-rlabel metal1 15088 12342 15088 12342 0 r2r_out[6]
-rlabel metal1 15042 13498 15042 13498 0 r2r_out[7]
-rlabel metal1 4922 14008 4922 14008 0 rst
+rlabel metal2 s 8036 14688 8036 14688 4 VGND
+rlabel metal1 s 7958 15232 7958 15232 4 VPWR
+rlabel metal1 s 14168 14382 14168 14382 4 _000_
+rlabel metal1 s 9660 12954 9660 12954 4 _001_
+rlabel metal1 s 11458 14450 11458 14450 4 _002_
+rlabel metal2 s 9246 14246 9246 14246 4 _003_
+rlabel metal1 s 8878 12954 8878 12954 4 _004_
+rlabel metal1 s 6992 14042 6992 14042 4 _005_
+rlabel metal1 s 5699 12750 5699 12750 4 _006_
+rlabel metal2 s 5014 14246 5014 14246 4 _007_
+rlabel metal1 s 4472 12750 4472 12750 4 _008_
+rlabel metal1 s 13708 6766 13708 6766 4 _009_
+rlabel metal1 s 13064 5678 13064 5678 4 _010_
+rlabel metal2 s 13662 8092 13662 8092 4 _011_
+rlabel metal2 s 13662 9180 13662 9180 4 _012_
+rlabel metal1 s 13570 10030 13570 10030 4 _013_
+rlabel metal2 s 13662 11356 13662 11356 4 _014_
+rlabel metal2 s 13662 12444 13662 12444 4 _015_
+rlabel metal1 s 13294 13294 13294 13294 4 _016_
+rlabel metal1 s 10994 6936 10994 6936 4 _017_
+rlabel metal2 s 10350 2754 10350 2754 4 _018_
+rlabel metal1 s 11776 4250 11776 4250 4 _019_
+rlabel metal1 s 8724 5066 8724 5066 4 _020_
+rlabel metal1 s 9250 2958 9250 2958 4 _021_
+rlabel metal2 s 5934 2754 5934 2754 4 _022_
+rlabel metal1 s 4917 4046 4917 4046 4 _023_
+rlabel metal1 s 5796 5338 5796 5338 4 _024_
+rlabel metal1 s 9338 6426 9338 6426 4 _025_
+rlabel metal2 s 4457 6154 4457 6154 4 _026_
+rlabel metal1 s 4891 7990 4891 7990 4 _027_
+rlabel metal1 s 5244 8942 5244 8942 4 _028_
+rlabel metal2 s 9706 8194 9706 8194 4 _029_
+rlabel metal2 s 5193 9486 5193 9486 4 _030_
+rlabel metal1 s 10308 9486 10308 9486 4 _031_
+rlabel metal2 s 9706 11458 9706 11458 4 _032_
+rlabel metal2 s 9246 11866 9246 11866 4 _033_
+rlabel metal1 s 8188 11322 8188 11322 4 _034_
+rlabel metal2 s 7020 11662 7020 11662 4 _035_
+rlabel metal1 s 8142 11186 8142 11186 4 _036_
+rlabel metal1 s 5106 10778 5106 10778 4 _037_
+rlabel metal1 s 5474 11696 5474 11696 4 _038_
+rlabel metal1 s 5106 11322 5106 11322 4 _039_
+rlabel metal1 s 5474 11084 5474 11084 4 _040_
+rlabel metal1 s 7866 11628 7866 11628 4 _041_
+rlabel metal1 s 7544 11050 7544 11050 4 _042_
+rlabel metal1 s 6394 11526 6394 11526 4 _043_
+rlabel metal1 s 7452 11186 7452 11186 4 _044_
+rlabel metal1 s 7268 8398 7268 8398 4 _045_
+rlabel metal1 s 7222 10234 7222 10234 4 _046_
+rlabel metal1 s 6302 11050 6302 11050 4 _047_
+rlabel metal1 s 5290 11628 5290 11628 4 _048_
+rlabel metal1 s 4462 11322 4462 11322 4 _049_
+rlabel metal1 s 5842 11186 5842 11186 4 _050_
+rlabel metal1 s 6762 8398 6762 8398 4 _051_
+rlabel metal1 s 7636 5746 7636 5746 4 _052_
+rlabel metal1 s 10074 10064 10074 10064 4 _053_
+rlabel metal1 s 8372 8398 8372 8398 4 _054_
+rlabel metal1 s 12558 7242 12558 7242 4 _055_
+rlabel metal2 s 13110 7140 13110 7140 4 _056_
+rlabel metal2 s 9062 7276 9062 7276 4 _057_
+rlabel metal1 s 13386 6222 13386 6222 4 _058_
+rlabel metal2 s 8694 8398 8694 8398 4 _059_
+rlabel metal1 s 10350 6766 10350 6766 4 _060_
+rlabel metal2 s 12558 6426 12558 6426 4 _061_
+rlabel metal1 s 11914 7990 11914 7990 4 _062_
+rlabel metal2 s 12185 6222 12185 6222 4 _063_
+rlabel metal1 s 12466 6290 12466 6290 4 _064_
+rlabel metal1 s 5336 9010 5336 9010 4 _065_
+rlabel metal1 s 6711 4046 6711 4046 4 _066_
+rlabel metal2 s 10994 9180 10994 9180 4 _067_
+rlabel metal2 s 11822 8704 11822 8704 4 _068_
+rlabel metal2 s 12006 8806 12006 8806 4 _069_
+rlabel metal1 s 11500 9010 11500 9010 4 _070_
+rlabel metal1 s 12742 8398 12742 8398 4 _071_
+rlabel metal1 s 13386 9452 13386 9452 4 _072_
+rlabel metal1 s 13294 9690 13294 9690 4 _073_
+rlabel metal1 s 12696 9078 12696 9078 4 _074_
+rlabel metal1 s 14030 9554 14030 9554 4 _075_
+rlabel metal1 s 12926 10030 12926 10030 4 _076_
+rlabel metal1 s 13248 10778 13248 10778 4 _077_
+rlabel metal2 s 10672 5372 10672 5372 4 _078_
+rlabel metal1 s 12374 10982 12374 10982 4 _079_
+rlabel metal2 s 12650 10982 12650 10982 4 _080_
+rlabel metal1 s 12006 12784 12006 12784 4 _081_
+rlabel metal2 s 12466 11186 12466 11186 4 _082_
+rlabel metal1 s 13524 11322 13524 11322 4 _083_
+rlabel metal1 s 12236 12274 12236 12274 4 _084_
+rlabel metal1 s 12880 12750 12880 12750 4 _085_
+rlabel metal1 s 12098 12716 12098 12716 4 _086_
+rlabel metal1 s 14030 12784 14030 12784 4 _087_
+rlabel metal1 s 12144 13362 12144 13362 4 _088_
+rlabel metal1 s 12052 13498 12052 13498 4 _089_
+rlabel metal1 s 12374 13770 12374 13770 4 _090_
+rlabel metal1 s 12604 12410 12604 12410 4 _091_
+rlabel metal1 s 12696 13498 12696 13498 4 _092_
+rlabel metal2 s 10626 6630 10626 6630 4 _093_
+rlabel metal1 s 8372 3366 8372 3366 4 _094_
+rlabel metal1 s 11454 3570 11454 3570 4 _095_
+rlabel metal1 s 10718 2482 10718 2482 4 _096_
+rlabel metal1 s 10672 4794 10672 4794 4 _097_
+rlabel metal1 s 12006 5236 12006 5236 4 _098_
+rlabel metal1 s 12282 5100 12282 5100 4 _099_
+rlabel metal1 s 11730 4080 11730 4080 4 _100_
+rlabel metal2 s 10442 4845 10442 4845 4 _101_
+rlabel metal1 s 10534 4522 10534 4522 4 _102_
+rlabel metal2 s 10810 4828 10810 4828 4 _103_
+rlabel metal1 s 9384 5134 9384 5134 4 _104_
+rlabel metal1 s 8648 3706 8648 3706 4 _105_
+rlabel metal2 s 9430 3740 9430 3740 4 _106_
+rlabel metal1 s 8418 3638 8418 3638 4 _107_
+rlabel metal1 s 9430 3706 9430 3706 4 _108_
+rlabel metal1 s 7590 3026 7590 3026 4 _109_
+rlabel metal1 s 6486 2482 6486 2482 4 _110_
+rlabel metal2 s 6302 4488 6302 4488 4 _111_
+rlabel metal1 s 7222 4692 7222 4692 4 _112_
+rlabel metal1 s 7222 4250 7222 4250 4 _113_
+rlabel metal1 s 5566 4556 5566 4556 4 _114_
+rlabel metal1 s 6946 4522 6946 4522 4 _115_
+rlabel metal1 s 7958 4794 7958 4794 4 _116_
+rlabel metal1 s 7590 5066 7590 5066 4 _117_
+rlabel metal1 s 6854 4692 6854 4692 4 _118_
+rlabel metal1 s 6118 4794 6118 4794 4 _119_
+rlabel metal1 s 8234 6970 8234 6970 4 _120_
+rlabel metal1 s 7912 6902 7912 6902 4 _121_
+rlabel metal1 s 8418 6902 8418 6902 4 _122_
+rlabel metal1 s 8786 6222 8786 6222 4 _123_
+rlabel metal1 s 6532 6834 6532 6834 4 _124_
+rlabel metal1 s 6256 6698 6256 6698 4 _125_
+rlabel metal1 s 6210 6868 6210 6868 4 _126_
+rlabel metal1 s 4646 6800 4646 6800 4 _127_
+rlabel metal1 s 5336 7990 5336 7990 4 _128_
+rlabel metal1 s 6302 7888 6302 7888 4 _129_
+rlabel metal1 s 5290 7888 5290 7888 4 _130_
+rlabel metal2 s 6302 8738 6302 8738 4 _131_
+rlabel metal1 s 7774 7344 7774 7344 4 _132_
+rlabel metal1 s 7866 8296 7866 8296 4 _133_
+rlabel metal1 s 5566 8976 5566 8976 4 _134_
+rlabel metal1 s 8786 8296 8786 8296 4 _135_
+rlabel metal2 s 9154 7956 9154 7956 4 _136_
+rlabel metal1 s 8878 8364 8878 8364 4 _137_
+rlabel metal1 s 9154 7922 9154 7922 4 _138_
+rlabel metal1 s 9476 7922 9476 7922 4 _139_
+rlabel metal1 s 7084 8874 7084 8874 4 _140_
+rlabel metal1 s 9798 10132 9798 10132 4 _141_
+rlabel metal1 s 6302 9690 6302 9690 4 _142_
+rlabel metal2 s 10074 10472 10074 10472 4 _143_
+rlabel metal1 s 8648 9622 8648 9622 4 _144_
+rlabel metal1 s 9246 10064 9246 10064 4 _145_
+rlabel metal1 s 9890 11220 9890 11220 4 _146_
+rlabel metal1 s 10258 10778 10258 10778 4 _147_
+rlabel metal1 s 4646 13838 4646 13838 4 _148_
+rlabel metal1 s 5336 4658 5336 4658 4 _149_
+rlabel metal1 s 10672 12614 10672 12614 4 _150_
+rlabel metal1 s 10304 14042 10304 14042 4 _151_
+rlabel metal1 s 8510 13906 8510 13906 4 _152_
+rlabel metal1 s 8326 12614 8326 12614 4 _153_
+rlabel metal1 s 6854 13906 6854 13906 4 _154_
+rlabel metal2 s 7314 12206 7314 12206 4 _155_
+rlabel metal1 s 6624 12954 6624 12954 4 _156_
+rlabel metal1 s 4508 13906 4508 13906 4 _157_
+rlabel metal2 s 4324 12852 4324 12852 4 _158_
+rlabel metal2 s 8142 11951 8142 11951 4 _159_
+rlabel metal2 s 8970 11458 8970 11458 4 _160_
+rlabel metal1 s 9153 11662 9153 11662 4 _161_
+rlabel metal1 s 10258 9112 10258 9112 4 clk
+rlabel metal1 s 9292 5814 9292 5814 4 clknet_0_clk
+rlabel metal1 s 4278 5610 4278 5610 4 clknet_2_0__leaf_clk
+rlabel metal1 s 10994 2958 10994 2958 4 clknet_2_1__leaf_clk
+rlabel metal1 s 5106 14484 5106 14484 4 clknet_2_2__leaf_clk
+rlabel metal1 s 9614 11730 9614 11730 4 clknet_2_3__leaf_clk
+rlabel metal1 s 11224 4114 11224 4114 4 counter\[0\]
+rlabel metal2 s 4554 8228 4554 8228 4 counter\[10\]
+rlabel metal1 s 6210 8432 6210 8432 4 counter\[11\]
+rlabel metal1 s 9384 8398 9384 8398 4 counter\[12\]
+rlabel metal2 s 6302 10608 6302 10608 4 counter\[13\]
+rlabel metal1 s 4462 10642 4462 10642 4 counter\[14\]
+rlabel metal1 s 3910 11186 3910 11186 4 counter\[15\]
+rlabel metal1 s 11132 4046 11132 4046 4 counter\[1\]
+rlabel metal2 s 12374 4964 12374 4964 4 counter\[2\]
+rlabel metal1 s 10120 4658 10120 4658 4 counter\[3\]
+rlabel metal1 s 8096 4726 8096 4726 4 counter\[4\]
+rlabel metal1 s 8188 4658 8188 4658 4 counter\[5\]
+rlabel metal1 s 8372 4590 8372 4590 4 counter\[6\]
+rlabel metal2 s 6946 5372 6946 5372 4 counter\[7\]
+rlabel metal2 s 8891 7310 8891 7310 4 counter\[8\]
+rlabel metal1 s 8602 11186 8602 11186 4 counter\[9\]
+rlabel metal1 s 12604 14926 12604 14926 4 data[0]
+rlabel metal1 s 11224 14926 11224 14926 4 data[1]
+rlabel metal1 s 10028 14926 10028 14926 4 data[2]
+rlabel metal1 s 9062 14960 9062 14960 4 data[3]
+rlabel metal1 s 7360 14926 7360 14926 4 data[4]
+rlabel metal1 s 5980 14926 5980 14926 4 data[5]
+rlabel metal1 s 5290 14892 5290 14892 4 data[6]
+rlabel metal1 s 3496 14926 3496 14926 4 data[7]
+rlabel metal2 s 10442 12648 10442 12648 4 divider\[0\]
+rlabel metal2 s 8786 11560 8786 11560 4 divider\[1\]
+rlabel metal1 s 8556 14586 8556 14586 4 divider\[2\]
+rlabel metal1 s 7682 12784 7682 12784 4 divider\[3\]
+rlabel metal1 s 7866 14518 7866 14518 4 divider\[4\]
+rlabel metal1 s 6808 11798 6808 11798 4 divider\[5\]
+rlabel metal1 s 5198 14960 5198 14960 4 divider\[6\]
+rlabel metal1 s 3588 11730 3588 11730 4 divider\[7\]
+rlabel metal1 s 2254 14926 2254 14926 4 ext_data
+rlabel metal1 s 966 14926 966 14926 4 load_divider
+rlabel metal1 s 13800 14926 13800 14926 4 n_rst
+rlabel metal1 s 10166 12682 10166 12682 4 net1
+rlabel metal1 s 4830 14926 4830 14926 4 net10
+rlabel metal1 s 14214 14450 14214 14450 4 net11
+rlabel metal1 s 12788 14518 12788 14518 4 net12
+rlabel metal1 s 6532 4046 6532 4046 4 net13
+rlabel metal1 s 8280 3570 8280 3570 4 net14
+rlabel metal2 s 5382 8092 5382 8092 4 net15
+rlabel metal1 s 11592 4658 11592 4658 4 net16
+rlabel metal1 s 13570 5168 13570 5168 4 net17
+rlabel metal1 s 6348 5134 6348 5134 4 net18
+rlabel metal1 s 10442 6834 10442 6834 4 net19
+rlabel metal1 s 11592 7854 11592 7854 4 net2
+rlabel metal2 s 11178 11356 11178 11356 4 net20
+rlabel metal1 s 14306 8398 14306 8398 4 net21
+rlabel metal1 s 12788 13294 12788 13294 4 net22
+rlabel metal1 s 10488 14790 10488 14790 4 net3
+rlabel metal1 s 8970 12750 8970 12750 4 net4
+rlabel metal1 s 7866 13838 7866 13838 4 net5
+rlabel metal1 s 6026 13290 6026 13290 4 net6
+rlabel metal1 s 4830 13804 4830 13804 4 net7
+rlabel metal1 s 4278 13260 4278 13260 4 net8
+rlabel metal1 s 6578 10166 6578 10166 4 net9
+rlabel metal3 s 15372 1156 15372 1156 4 r2r_out[0]
+rlabel metal3 s 15096 3060 15096 3060 4 r2r_out[1]
+rlabel metal1 s 12650 8330 12650 8330 4 r2r_out[2]
+rlabel metal1 s 14996 8806 14996 8806 4 r2r_out[3]
+rlabel metal1 s 15042 9894 15042 9894 4 r2r_out[4]
+rlabel metal3 s 15418 10676 15418 10676 4 r2r_out[5]
+rlabel metal1 s 15088 12342 15088 12342 4 r2r_out[6]
+rlabel metal1 s 15042 13498 15042 13498 4 r2r_out[7]
+rlabel metal1 s 4922 14008 4922 14008 4 rst
+flabel metal4 s 15200 496 15520 15280 0 FreeSans 2400 90 0 0 VGND
+port 1 nsew
+flabel metal4 s 11498 496 11818 15280 0 FreeSans 2400 90 0 0 VGND
+port 1 nsew
+flabel metal4 s 7796 496 8116 15280 0 FreeSans 2400 90 0 0 VGND
+port 1 nsew
+flabel metal4 s 4094 496 4414 15280 0 FreeSans 2400 90 0 0 VGND
+port 1 nsew
+flabel metal4 s 13349 496 13669 15280 0 FreeSans 2400 90 0 0 VPWR
+port 2 nsew
+flabel metal4 s 9647 496 9967 15280 0 FreeSans 2400 90 0 0 VPWR
+port 2 nsew
+flabel metal4 s 5945 496 6265 15280 0 FreeSans 2400 90 0 0 VPWR
+port 2 nsew
+flabel metal4 s 2243 496 2563 15280 0 FreeSans 2400 90 0 0 VPWR
+port 2 nsew
+flabel metal2 s 15014 15600 15070 16000 0 FreeSans 280 90 0 0 clk
+port 3 nsew
+flabel metal2 s 12438 15600 12494 16000 0 FreeSans 280 90 0 0 data[0]
+port 4 nsew
+flabel metal2 s 11150 15600 11206 16000 0 FreeSans 280 90 0 0 data[1]
+port 5 nsew
+flabel metal2 s 9862 15600 9918 16000 0 FreeSans 280 90 0 0 data[2]
+port 6 nsew
+flabel metal2 s 8574 15600 8630 16000 0 FreeSans 280 90 0 0 data[3]
+port 7 nsew
+flabel metal2 s 7286 15600 7342 16000 0 FreeSans 280 90 0 0 data[4]
+port 8 nsew
+flabel metal2 s 5998 15600 6054 16000 0 FreeSans 280 90 0 0 data[5]
+port 9 nsew
+flabel metal2 s 4710 15600 4766 16000 0 FreeSans 280 90 0 0 data[6]
+port 10 nsew
+flabel metal2 s 3422 15600 3478 16000 0 FreeSans 280 90 0 0 data[7]
+port 11 nsew
+flabel metal2 s 2134 15600 2190 16000 0 FreeSans 280 90 0 0 ext_data
+port 12 nsew
+flabel metal2 s 846 15600 902 16000 0 FreeSans 280 90 0 0 load_divider
+port 13 nsew
+flabel metal2 s 13726 15600 13782 16000 0 FreeSans 280 90 0 0 n_rst
+port 14 nsew
+flabel metal3 s 15600 1096 16000 1216 0 FreeSans 600 0 0 0 r2r_out[0]
+port 15 nsew
+flabel metal3 s 15600 3000 16000 3120 0 FreeSans 600 0 0 0 r2r_out[1]
+port 16 nsew
+flabel metal3 s 15600 4904 16000 5024 0 FreeSans 600 0 0 0 r2r_out[2]
+port 17 nsew
+flabel metal3 s 15600 6808 16000 6928 0 FreeSans 600 0 0 0 r2r_out[3]
+port 18 nsew
+flabel metal3 s 15600 8712 16000 8832 0 FreeSans 600 0 0 0 r2r_out[4]
+port 19 nsew
+flabel metal3 s 15600 10616 16000 10736 0 FreeSans 600 0 0 0 r2r_out[5]
+port 20 nsew
+flabel metal3 s 15600 12520 16000 12640 0 FreeSans 600 0 0 0 r2r_out[6]
+port 21 nsew
+flabel metal3 s 15600 14424 16000 14544 0 FreeSans 600 0 0 0 r2r_out[7]
+port 22 nsew
 << properties >>
 string FIXED_BBOX 0 0 16000 16000
+string GDS_END 931470
+string GDS_FILE ../gds/r2r_dac_control.gds
+string GDS_START 327600
 << end >>
