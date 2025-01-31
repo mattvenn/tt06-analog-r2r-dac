@@ -10,12 +10,16 @@ xtt clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6]
 + uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[0]
 + uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0]
 + uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0]
-+ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] vcc 0 tt_um_mattvenn_r2r_dac
++ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] vcc 0 tt_um_mattvenn_r2r_dac_parax
 
 **** End of the ADC and its subcircuits.  Begin test circuit ****
 
-.param vcc=3.3
+.param vcc=1.8
 vcc vcc 0 {vcc}
+
+* simulate tt output path
+R1 "ua[0]" pin_out 500
+C1 "ua[0]" 0 5p
 
 * set ext data to be off, signal is generated inside
 Vext_data uio_in[0] 0 0
@@ -25,12 +29,15 @@ Vext_data uio_in[0] 0 0
 aclock 0 clk clock
 .model clock d_osc cntl_array=[-1 1] freq_array=[1Meg 1Meg]
 
-* reset signal
-
-Vreset rst_n 0 PULSE 3 0 1n 20p 20p 1u 500u
+* reset signal with PULSE(V1 V2 Tdelay Trise Tfall Ton Tperiod)
+* start at 1.8v, drop to 0v at 1n, wait for 1u then rise back to 1.8v and wait for 500u
+Vreset rst_n 0 PULSE {vcc} 0 1n 20p 20p 1u 500u
 
 .control
-tran 100n 400u
-plot ua[0]
+* skip op part of transient sim
+*tran 100n 400u uic
+tran 100n 10u uic
+write full_sim.raw
+* plot pin_out
 .endc
 .end
