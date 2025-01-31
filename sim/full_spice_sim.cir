@@ -5,10 +5,13 @@
 .param mc_mm_switch=1
 .param mc_pr_switch=1
 
-xtt clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7] ui_in[4] ui_in[6] uio_in[0] uio_in[2] uio_in[3] uio_in[4] uio_in[5]
-+ uio_in[6] uio_in[7] ui_in[3] ui_in[5] ui_in[7] ui_in[0] uio_in[1] ui_in[1] ui_in[2]
+xtt clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5]
++ ua[6] ua[7] ui_in[4] ui_in[6] uio_in[0] uio_in[2] uio_in[3] uio_in[4] uio_in[5]
++ uio_in[6] uio_in[7] uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5]
++ uio_oe[6] uio_oe[7] uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5]
++ uio_out[6] uio_out[7] uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5]
++ uo_out[6] uo_out[7] ui_in[3] ui_in[5] ui_in[7] ui_in[0] uio_in[1] ui_in[1] ui_in[2]
 + vcc 0 tt_um_mattvenn_r2r_dac_parax
-
 
 * simulate tt output path
 R1 "ua[0]" pin_out 500
@@ -22,14 +25,14 @@ Vload_div uio_in[1] 0 0
 vcc vcc 0 {vcc}
 
 * Digital clock signal
-Vclk clk 0 PULSE {vcc} 0 0.5u 20p 20p 1u 2u
+Vclk clk 0 PULSE {vcc} 0 0.5u 1n 1n 1u 2u
 
 * reset signal with PULSE(V1 V2 Tdelay Trise Tfall Ton Tperiod)
 * start at 0v, rise to 1.8v at 2u
-Vreset rst_n 0 PULSE 0 {vcc} 2u 20p 20p 500u 1u
+Vreset rst_n 0 PULSE 0 {vcc} 4u 20p 20p 500u 1u
 
 .control
-tran 100n 40u 
+tran 100n 20u 
 write full_sim.raw
 plot pin_out
 .endc
